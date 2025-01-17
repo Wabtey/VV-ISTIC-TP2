@@ -27,3 +27,64 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 > [!WARNING]
 > *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+## Answer
+
+Run the main of javaparser-starter `/usr/bin/env /usr/lib/jvm/java-22-openjdk/bin/java @/tmp/cp_2kk5p4yrx1rk05gf4z3x0381p.argfile fr.istic.vv.Main code/javaparser-starter/assets/tests/`
+
+for these java classes `Person.java`:
+
+```java
+public class Person {
+    private int age;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public boolean isAdult() {
+        return age > 17;
+    }
+}
+```
+
+and `PersonMultiVar.java`
+
+```java
+public class PersonMultiVar {
+    private int age, knownAge;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getKnowAge() {
+        return knowAge;
+    }
+
+    public boolean isAdult() {
+        return age > 17;
+    }
+}
+```
+
+it will print
+
+```text
+----- Find public methods -----
+Person
+  public String getName()
+  public boolean isAdult()
+PersonMultiVar
+  public String getName()
+  public int getKnowAge()
+  public boolean isAdult()
+-- Find unaccessible fields ---
+Person
+  private int age
+PersonMultiVar
+  private int age
+  private int knownAge
+```

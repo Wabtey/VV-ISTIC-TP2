@@ -9,7 +9,7 @@ import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
 // This class visits a compilation unit and
-// prints all private fields that don't have a public getter 
+// prints all private variables that don't have a public getter 
 public class ForgottenPrivateFieldsPrinter extends VoidVisitorWithDefaults<Void> {
     @Override
     public void visit(CompilationUnit unit, Void arg) {
@@ -53,7 +53,7 @@ public class ForgottenPrivateFieldsPrinter extends VoidVisitorWithDefaults<Void>
                     for (VariableDeclarator variable : field.getVariables()) {
                         if (!publicGetters.contains(variable.getNameAsString().toLowerCase())) {
                             // System.out.println("- var: " + variable.getNameAsString().toLowerCase());
-                            field.accept(this, arg);
+                            variable.accept(this, arg);
                         }
                     }
                 }
@@ -62,14 +62,8 @@ public class ForgottenPrivateFieldsPrinter extends VoidVisitorWithDefaults<Void>
     }
 
     @Override
-    public void visit(FieldDeclaration fieldDeclaration, Void arg) {
-        System.out.println("  " + fieldDeclaration.toString());
-    }
-
-    /** Unused as we visit the field */
-    @Override
     public void visit(VariableDeclarator varDeclarator, Void arg) {
-        System.out.println("  " + varDeclarator.getNameAsString());
+        System.out.println("  " + "private " + varDeclarator.getTypeAsString() + " " + varDeclarator.getNameAsString());
     }
 
     /* -------------------------------------------------------------------------- */
