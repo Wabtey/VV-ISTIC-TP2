@@ -1,11 +1,5 @@
 package fr.istic.vv;
 
-import com.github.javaparser.Problem;
-import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
-import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.visitor.VoidVisitor;
-import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
@@ -43,5 +37,25 @@ public class Main {
             result.ifSuccessful(unit -> unit.accept(forgottenPrinter, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
+        /* ------------------------------- Exercise V ------------------------------- */
+        if (args.length == 2) {
+            System.out.println("- report Cyclomatic Complexity -");
+            CyclomaticComplexityPrinter ccPrinter = new CyclomaticComplexityPrinter();
+            root.parse("", (localPath, absolutePath, result) -> {
+                result.ifSuccessful(unit -> unit.accept(ccPrinter, null));
+                return SourceRoot.Callback.Result.DONT_SAVE;
+            });
+            String outputPath = args[1];
+            ccPrinter.generateReport(outputPath);
+            try {
+                Path path = Paths.get(outputPath);
+                String content = new String(java.nio.file.Files.readAllBytes(path));
+                System.out.println(content);
+            } catch (IOException e) {
+                System.err.println("Error reading the output file: " + e.getMessage());
+            }
+        }
+
     }
 }

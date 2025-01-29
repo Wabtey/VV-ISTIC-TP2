@@ -30,7 +30,7 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 ## Answer
 
-Run the main of javaparser-starter `/usr/bin/env /usr/lib/jvm/java-22-openjdk/bin/java @/tmp/cp_2kk5p4yrx1rk05gf4z3x0381p.argfile fr.istic.vv.Main code/javaparser-starter/assets/tests/`
+Run the main of javaparser-starter `Main` class with argument: `code/javaparser-starter/assets/tests/`
 
 for these java classes `Person.java`:
 

@@ -1,0 +1,14 @@
+Class,Method,Complexity
+ComplexPerson,canVote,1
+ComplexPerson,countPlasticCups,4
+ComplexPerson,getName,1
+ComplexPerson,isAdult,1
+ComplexPerson,printDetails,3
+ComplexPerson,showAllBelongings,2
+ComplexPerson,updateDetails,3
+Person,getName,1
+Person,isAdult,1
+PersonMultiVar,getKnowAge,1
+PersonMultiVar,getName,1
+PersonMultiVar,isAdult,1
+UntestableCode,complexMethod,37
