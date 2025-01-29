@@ -1,3 +1,1 @@
-# Code of your exercise
-
-Put here all the code created for this exercise
+# Code of [jp-tcc](../../exercises/jp-tcc)
