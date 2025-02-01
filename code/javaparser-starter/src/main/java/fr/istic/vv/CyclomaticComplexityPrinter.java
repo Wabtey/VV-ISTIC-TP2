@@ -41,7 +41,7 @@ public class CyclomaticComplexityPrinter extends VoidVisitorWithDefaults<Void> {
     }
 
     public void generateReport(String outputPath) throws IOException {
-        try (FileWriter writer = new FileWriter(outputPath)) {
+        try (FileWriter writer = new FileWriter(outputPath + "cc.csv")) {
             writer.write("Class,Method,Complexity\n");
 
             List<Map.Entry<String, Integer>> sortedEntries = new ArrayList<>(methodComplexity.entrySet());

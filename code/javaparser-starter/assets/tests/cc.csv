@@ -11,4 +11,4 @@ Person,isAdult,1
 PersonMultiVar,getKnowAge,1
 PersonMultiVar,getName,1
 PersonMultiVar,isAdult,1
-UntestableCode,complexMethod,37
+big.UntestableCode,complexMethod,37

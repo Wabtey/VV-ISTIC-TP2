@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
         if (args.length != 0 && args.length != 2) {
-            System.err.println("Should provide the path to the source code and the path to the report file");
+            System.err
+                    .println("Should provide the path to the source code and the path of the future generated reports");
             System.exit(1);
         }
 
@@ -21,7 +22,6 @@ public class Main {
         String reportPath = "";
 
         if (args.length == 0) {
-
             while (projectPath.isEmpty()) {
                 System.out.println("Do you want to use the test assets or your own project?");
                 System.out.println("1. Test assets");
@@ -84,11 +84,27 @@ public class Main {
         });
         ccPrinter.generateReport(reportPath);
 
+        askPrintReport(reportPath + "cc.csv", "Print the CC of every methods", scanner);
+
+        /* ------------------------------- Exercise VI ------------------------------ */
+        /* -------------------------- Tight Class Cohesion -------------------------- */
+        System.out.println("----- Tight Class Cohesion -----");
+        TightClassCohesionPrinter tccCalculator = new TightClassCohesionPrinter();
+        root.parse("", (localPath, absolutePath, result) -> {
+            result.ifSuccessful(unit -> unit.accept(tccCalculator, null));
+            return SourceRoot.Callback.Result.DONT_SAVE;
+        });
+        tccCalculator.generateReports(reportPath);
+
+        askPrintReport(reportPath + "fullSourceTCCReport.csv", "Print the TCC of every classes", scanner);
+        scanner.close();
+    }
+
+    static void askPrintReport(String reportPath, String question, Scanner scanner) {
         String answer = "";
         while (!answer.equalsIgnoreCase("y") && !answer.equalsIgnoreCase("n")) {
-            System.out.print("Print the CC of every methods (y/N): ");
+            System.out.print(question + " (y/N): ");
             answer = scanner.nextLine();
-
             if (answer.isEmpty()) {
                 answer = "n";
             }
@@ -103,11 +119,5 @@ public class Main {
                 System.err.println("Error reading the output file: " + e.getMessage());
             }
         }
-
-        /* ------------------------------- Exercise VI ------------------------------ */
-        /* -------------------------- Tight Class Cohesion -------------------------- */
-        System.out.println("----- Tight Class Cohesion -----");
-
-        scanner.close();
     }
 }

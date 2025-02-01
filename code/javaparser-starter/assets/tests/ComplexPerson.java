@@ -1,3 +1,4 @@
+// TCC = 1/3
 public class ComplexPerson {
     private int age;
     private String name;
