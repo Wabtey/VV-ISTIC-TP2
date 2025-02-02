@@ -1,0 +1,9 @@
+strict graph {
+  label="NeuronString"
+  "getFeatures" -- "getNetwork" [label="network"];
+  "createLinks" -- "getNetwork" [label="network"];
+  "getFeatures" -- "getSize" [label="size"];
+  "createLinks" -- "getSize" [label="size"];
+  "createLinks" -- "isWrapped" [label="wrap"];
+  "createLinks" -- "getFeatures" [label="size, network"];
+}

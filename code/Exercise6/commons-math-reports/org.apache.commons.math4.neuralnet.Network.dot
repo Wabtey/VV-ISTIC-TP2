@@ -1,0 +1,36 @@
+strict graph {
+  label="Network"
+  "copy" -- "from" [label="featureSize"];
+  "createNeuron" -- "from" [label="featureSize"];
+  "from" -- "getFeaturesSize" [label="featureSize"];
+  "copy" -- "iterator" [label="neuronMap"];
+  "copy" -- "getNeurons" [label="neuronMap"];
+  "copy" -- "createNeuron" [label="featureSize, nextId, neuronMap, linkMap"];
+  "copy" -- "deleteNeuron" [label="neuronMap"];
+  "copy" -- "getFeaturesSize" [label="featureSize"];
+  "addLink" -- "copy" [label="linkMap"];
+  "copy" -- "deleteLink" [label="linkMap"];
+  "copy" -- "getNeuron" [label="neuronMap"];
+  "copy" -- "getNeighbours" [label="linkMap"];
+  "copy" -- "createNextId" [label="nextId"];
+  "getNeurons" -- "iterator" [label="neuronMap"];
+  "createNeuron" -- "iterator" [label="neuronMap"];
+  "deleteNeuron" -- "iterator" [label="neuronMap"];
+  "getNeuron" -- "iterator" [label="neuronMap"];
+  "createNeuron" -- "getNeurons" [label="neuronMap"];
+  "deleteNeuron" -- "getNeurons" [label="neuronMap"];
+  "getNeuron" -- "getNeurons" [label="neuronMap"];
+  "createNeuron" -- "createNeuron" [label="featureSize, nextId, neuronMap, linkMap"];
+  "createNeuron" -- "deleteNeuron" [label="neuronMap"];
+  "createNeuron" -- "getFeaturesSize" [label="featureSize"];
+  "addLink" -- "createNeuron" [label="linkMap"];
+  "createNeuron" -- "deleteLink" [label="linkMap"];
+  "createNeuron" -- "getNeuron" [label="neuronMap"];
+  "createNeuron" -- "getNeighbours" [label="linkMap"];
+  "createNeuron" -- "createNextId" [label="nextId"];
+  "deleteNeuron" -- "getNeuron" [label="neuronMap"];
+  "addLink" -- "deleteLink" [label="linkMap"];
+  "addLink" -- "getNeighbours" [label="linkMap"];
+  "deleteLink" -- "getNeighbours" [label="linkMap"];
+  "getNeighbours" -- "getNeighbours" [label="linkMap"];
+}

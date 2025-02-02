@@ -1,0 +1,13 @@
+strict graph {
+  label="NetworkTest"
+  "testDeleteLink" -- "testGetFeaturesSize" [label="init"];
+  "testDeleteNeuron" -- "testGetFeaturesSize" [label="init"];
+  "testGetFeaturesSize" -- "testIdentifierAssignment" [label="init"];
+  "testCopy" -- "testGetFeaturesSize" [label="init"];
+  "testDeleteLink" -- "testDeleteNeuron" [label="init"];
+  "testDeleteLink" -- "testIdentifierAssignment" [label="init"];
+  "testCopy" -- "testDeleteLink" [label="init"];
+  "testDeleteNeuron" -- "testIdentifierAssignment" [label="init"];
+  "testCopy" -- "testDeleteNeuron" [label="init"];
+  "testCopy" -- "testIdentifierAssignment" [label="init"];
+}

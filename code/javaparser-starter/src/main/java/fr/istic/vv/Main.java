@@ -76,7 +76,7 @@ public class Main {
         });
 
         /* ------------------------------- Exercise V ------------------------------- */
-        System.out.println("- report Cyclomatic Complexity -");
+        System.out.println("---- Cyclomatic Complexity -----");
         CyclomaticComplexityPrinter ccPrinter = new CyclomaticComplexityPrinter();
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(ccPrinter, null));

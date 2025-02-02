@@ -1,3 +1,4 @@
+// TCC = 0/3 because there is no instance variable in common in the methods
 public class PersonMultiVar {
     private int age, knownAge;
     private String name;
@@ -6,8 +7,8 @@ public class PersonMultiVar {
         return name;
     }
 
-    public int getKnowAge() {
-        return knowAge;
+    public int getKnownAge() {
+        return knownAge;
     }
 
     public boolean isAdult() {

@@ -1,0 +1,6 @@
+strict graph {
+  label="NeuronStringTest"
+  "testCircleNetwork" -- "testSegmentNetwork" [label="init"];
+  "testGetNeighboursWithExclude" -- "testSegmentNetwork" [label="init"];
+  "testCircleNetwork" -- "testGetNeighboursWithExclude" [label="init"];
+}

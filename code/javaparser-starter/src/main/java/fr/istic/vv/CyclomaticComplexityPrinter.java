@@ -6,6 +6,9 @@ import com.github.javaparser.ast.visitor.VoidVisitorWithDefaults;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
 public class CyclomaticComplexityPrinter extends VoidVisitorWithDefaults<Void> {
@@ -41,7 +44,13 @@ public class CyclomaticComplexityPrinter extends VoidVisitorWithDefaults<Void> {
     }
 
     public void generateReport(String outputPath) throws IOException {
-        try (FileWriter writer = new FileWriter(outputPath + "cc.csv")) {
+        Path outputDir = Paths.get(outputPath);
+        if (!Files.exists(outputDir)) {
+            Files.createDirectories(outputDir);
+        }
+
+        String ccReportPath = outputPath + "cc.csv";
+        try (FileWriter writer = new FileWriter(ccReportPath)) {
             writer.write("Class,Method,Complexity\n");
 
             List<Map.Entry<String, Integer>> sortedEntries = new ArrayList<>(methodComplexity.entrySet());
@@ -49,6 +58,9 @@ public class CyclomaticComplexityPrinter extends VoidVisitorWithDefaults<Void> {
             for (Map.Entry<String, Integer> entry : sortedEntries) {
                 writer.write(entry.getKey() + "," + entry.getValue() + "\n");
             }
+        } catch (IOException e) {
+            System.err.println("Can't write into '" + ccReportPath + "'");
+            System.err.println("    " + e);
         }
     }
 }

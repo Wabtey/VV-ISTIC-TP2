@@ -1,0 +1,1147 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3501pt" height="1667pt" viewBox="0.00 0.00 3500.67 1667.20">
+<g id="graph0" class="graph" transform="translate(24.752799373829703,1630.6584200619657) scale(1.0000000000000004)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-1663.2 3496.67,-1663.2 3496.67,4 -4,4" style=""/>
+<text text-anchor="middle" x="1746.33" y="-8.2" font-family="Times,serif" font-size="14.00" style="">NeuronSquareMesh2DTest</text>
+<!-- testMinimalNetworkSize1 -->
+<g id="node1" class="node" pointer-events="visible" data-name="testMinimalNetworkSize1">
+
+<ellipse fill="none" stroke="black" cx="2071" cy="-131.6" rx="112.91" ry="18" style=""/>
+<text text-anchor="middle" x="2071" y="-127.4" font-family="Times,serif" font-size="14.00" style="">testMinimalNetworkSize1</text>
+</g>
+<!-- testMinimalNetworkSize2 -->
+<g id="node2" class="node" pointer-events="visible" data-name="testMinimalNetworkSize2">
+
+<ellipse fill="none" stroke="black" cx="1484" cy="-42.8" rx="112.91" ry="18" style=""/>
+<text text-anchor="middle" x="1484" y="-38.6" font-family="Times,serif" font-size="14.00" style="">testMinimalNetworkSize2</text>
+</g>
+<!-- testMinimalNetworkSize1&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge1" class="edge" data-name="testMinimalNetworkSize1--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1990.3,-118.67C1878.27,-102.1 1676.79,-72.31 1564.74,-55.74" style=""/>
+<text text-anchor="middle" x="1839.33" y="-83" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetFeaturesSize -->
+<g id="node3" class="node" pointer-events="visible" data-name="testGetFeaturesSize">
+
+<ellipse fill="none" stroke="black" cx="1354" cy="-575.6" rx="87.96" ry="18" style=""/>
+<text text-anchor="middle" x="1354" y="-571.4" font-family="Times,serif" font-size="14.00" style="">testGetFeaturesSize</text>
+</g>
+<!-- testGetFeaturesSize&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge2" class="edge" data-name="testGetFeaturesSize--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1363.63,-557.39C1387.63,-514.94 1450.46,-406.74 1482,-380 1559.37,-314.41 1788.74,-196.39 1886,-167.6 1919.38,-157.72 1957.01,-150 1989.57,-144.36" style=""/>
+<text text-anchor="middle" x="1537.33" y="-349.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetFeaturesSize&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge19" class="edge" data-name="testGetFeaturesSize--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1293.29,-562.33C1282.88,-560.53 1272.16,-558.86 1262,-557.6 1120.15,-540.03 629,-586.34 629,-443.4 629,-443.4 629,-443.4 629,-130.6 629,-56.89 1138.53,-45.25 1370.9,-43.78" style=""/>
+<text text-anchor="middle" x="638.33" y="-305" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuron -->
+<g id="node15" class="node" pointer-events="visible" data-name="testGetNeuron">
+
+<ellipse fill="none" stroke="black" cx="1314" cy="-486.8" rx="67.2" ry="18" style=""/>
+<text text-anchor="middle" x="1314" y="-482.6" font-family="Times,serif" font-size="14.00" style="">testGetNeuron</text>
+</g>
+<!-- testGetFeaturesSize&#45;&#45;testGetNeuron -->
+<g id="edge47" class="edge" data-name="testGetFeaturesSize--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1346.1,-557.45C1339.08,-542.23 1328.89,-520.12 1321.89,-504.91" style=""/>
+<text text-anchor="middle" x="1347.33" y="-527" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirection -->
+<g id="node16" class="node" pointer-events="visible" data-name="testGetNeuronAlongDirection">
+
+<ellipse fill="none" stroke="black" cx="1619" cy="-398" rx="127.92" ry="18" style=""/>
+<text text-anchor="middle" x="1619" y="-393.8" font-family="Times,serif" font-size="14.00" style="">testGetNeuronAlongDirection</text>
+</g>
+<!-- testGetFeaturesSize&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge48" class="edge" data-name="testGetFeaturesSize--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1397.02,-559.53C1410.81,-554.01 1425.89,-547.22 1439,-539.6 1502.92,-502.41 1569.24,-444.79 1600.54,-416.24" style=""/>
+<text text-anchor="middle" x="1546.33" y="-482.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirectionWrappedMap -->
+<g id="node17" class="node" pointer-events="visible" data-name="testGetNeuronAlongDirectionWrappedMap">
+
+<ellipse fill="none" stroke="black" cx="2232" cy="-309.2" rx="181.1" ry="18" style=""/>
+<text text-anchor="middle" x="2232" y="-305" font-family="Times,serif" font-size="14.00" style="">testGetNeuronAlongDirectionWrappedMap</text>
+</g>
+<!-- testGetFeaturesSize&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge49" class="edge" data-name="testGetFeaturesSize--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1401.19,-560.04C1421.2,-553.82 1444.76,-546.43 1466,-539.6 1705.31,-462.64 1765.02,-442.99 2003,-362 2024.4,-354.72 2029.18,-351.09 2051,-345.2 2079.89,-337.4 2111.82,-330.62 2140.72,-325.17" style=""/>
+<text text-anchor="middle" x="1796.33" y="-438.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testIterator -->
+<g id="node18" class="node" pointer-events="visible" data-name="testIterator">
+
+<ellipse fill="none" stroke="black" cx="1212" cy="-220.4" rx="52.72" ry="18" style=""/>
+<text text-anchor="middle" x="1212" y="-216.2" font-family="Times,serif" font-size="14.00" style="">testIterator</text>
+</g>
+<!-- testGetFeaturesSize&#45;&#45;testIterator -->
+<g id="edge50" class="edge" data-name="testGetFeaturesSize--testIterator">
+
+<path fill="none" stroke="black" d="M1289.45,-563.03C1277.36,-561.06 1264.81,-559.16 1253,-557.6 1185.35,-548.68 954,-556.03 954,-487.8 954,-487.8 954,-487.8 954,-308.2 954,-264.54 1088.37,-238.69 1163.17,-227.68" style=""/>
+<text text-anchor="middle" x="963.33" y="-393.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors -->
+<g id="node4" class="node" pointer-events="visible" data-name="testAccessors">
+
+<ellipse fill="none" stroke="black" cx="1552" cy="-930.8" rx="63.7" ry="18" style=""/>
+<text text-anchor="middle" x="1552" y="-926.6" font-family="Times,serif" font-size="14.00" style="">testAccessors</text>
+</g>
+<!-- testAccessors&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge3" class="edge" data-name="testAccessors--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1605.87,-920.87C1630.32,-915.47 1659.05,-907.16 1683,-894.8 1704.54,-883.68 1708.35,-877.62 1725,-860 1772.33,-809.91 1773.61,-788.73 1817,-735.2 1857,-685.85 1879.53,-683 1912,-628.4 1933.44,-592.34 1930.64,-579.37 1944,-539.6 1958.26,-497.15 1974,-488.19 1974,-443.4 1974,-443.4 1974,-443.4 1974,-219.4 1974,-194.03 1980.18,-185.66 1998,-167.6 2005.7,-159.8 2015.49,-153.5 2025.37,-148.52" style=""/>
+<text text-anchor="middle" x="1959.33" y="-527" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge20" class="edge" data-name="testAccessors--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1575.04,-913.55C1582.14,-908.01 1589.74,-901.51 1596,-894.8 1632.86,-855.33 1682.22,-776.93 1705,-717.2 1730.75,-649.69 1716.95,-627.3 1736,-557.6 1749.28,-509 1761.05,-499.49 1774,-450.8 1786.21,-404.93 1794.48,-392.46 1790,-345.2 1786.21,-305.2 1799.65,-286.47 1773,-256.4 1703.36,-177.82 1626.47,-254.16 1548,-184.4 1510.32,-150.9 1493.46,-90.78 1487.17,-61.2" style=""/>
+<text text-anchor="middle" x="1777.33" y="-482.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors&#45;&#45;testGetFeaturesSize -->
+<g id="edge36" class="edge" data-name="testAccessors--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1518.55,-915.13C1508.59,-909.71 1498.18,-902.88 1490,-894.8 1399.64,-805.47 1365.76,-646.55 1356.71,-594" style=""/>
+<text text-anchor="middle" x="1419.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood -->
+<g id="node13" class="node" pointer-events="visible" data-name="testConcentricNeighbourhood">
+
+<ellipse fill="none" stroke="black" cx="2094" cy="-842" rx="127.36" ry="18" style=""/>
+<text text-anchor="middle" x="2094" y="-837.8" font-family="Times,serif" font-size="14.00" style="">testConcentricNeighbourhood</text>
+</g>
+<!-- testAccessors&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge60" class="edge" data-name="testAccessors--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M1608.14,-921.85C1671.02,-912.85 1766.36,-898.91 1783,-894.8 1805.08,-889.34 1809.21,-883.26 1831.33,-878 1882.13,-865.92 1939.52,-857.67 1987.66,-852.23" style=""/>
+<text text-anchor="middle" x="1840.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2 -->
+<g id="node14" class="node" pointer-events="visible" data-name="testConcentricNeighbourhood2">
+
+<ellipse fill="none" stroke="black" cx="1236" cy="-753.2" rx="132.02" ry="18" style=""/>
+<text text-anchor="middle" x="1236" y="-749" font-family="Times,serif" font-size="14.00" style="">testConcentricNeighbourhood2</text>
+</g>
+<!-- testAccessors&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge61" class="edge" data-name="testAccessors--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M1509.35,-917.11C1491.31,-911.17 1470.27,-903.49 1452,-894.8 1425.31,-882.11 1419.31,-877.28 1395.33,-860 1355.63,-831.38 1352.27,-815.51 1311,-789.2 1300.22,-782.33 1287.87,-776 1276.34,-770.67" style=""/>
+<text text-anchor="middle" x="1405.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors&#45;&#45;testGetNeuron -->
+<g id="edge62" class="edge" data-name="testAccessors--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1539.34,-912.78C1535.46,-907.2 1531.34,-900.87 1528,-894.8 1499.18,-842.43 1490.28,-828.98 1475,-771.2 1450.58,-678.84 1505.39,-636.13 1451,-557.6 1430.25,-527.65 1392.68,-509.79 1362.13,-499.65" style=""/>
+<text text-anchor="middle" x="1478.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge63" class="edge" data-name="testAccessors--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1551.32,-912.44C1550.8,-891.37 1550.89,-854.83 1556,-824 1565.38,-767.43 1552.29,-740.78 1593,-700.4 1613.37,-680.2 1637.77,-705.34 1655,-682.4 1664.61,-669.61 1656.15,-662.36 1655,-646.4 1648.7,-559.39 1630.1,-456.5 1622.4,-416.3" style=""/>
+<text text-anchor="middle" x="1668.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge64" class="edge" data-name="testAccessors--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1607.8,-921.74C1638.14,-916.26 1675.92,-907.64 1708,-894.8 1721.47,-889.41 1722.66,-883.72 1736,-878 1763.55,-866.18 1774.19,-873.41 1801,-860 1916.5,-802.22 1944.3,-778.13 2031,-682.4 2136.5,-565.91 2206.07,-384.09 2226.06,-327.56" style=""/>
+<text text-anchor="middle" x="2094.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testAccessors&#45;&#45;testIterator -->
+<g id="edge65" class="edge" data-name="testAccessors--testIterator">
+
+<path fill="none" stroke="black" d="M1564.91,-912.95C1581.47,-890.16 1609.34,-847.57 1620,-806 1621.86,-798.77 1622.3,-796.3 1620,-789.2 1613.93,-770.42 1575.9,-735.29 1568,-717.2 1532.73,-636.44 1564.27,-603.56 1529,-522.8 1513.2,-486.63 1495.96,-485.42 1477,-450.8 1460.75,-421.12 1473.98,-402.83 1449,-380 1428.14,-360.93 1411.42,-377.83 1388,-362 1354.76,-339.54 1362.32,-317.48 1332,-291.2 1304.77,-267.6 1268.42,-247.76 1242.89,-235.34" style=""/>
+<text text-anchor="middle" x="1556.33" y="-571.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization -->
+<g id="node19" class="node" pointer-events="visible" data-name="testDataVisualization">
+
+<ellipse fill="none" stroke="black" cx="2177" cy="-664.4" rx="94.33" ry="18" style=""/>
+<text text-anchor="middle" x="2177" y="-660.2" font-family="Times,serif" font-size="14.00" style="">testDataVisualization</text>
+</g>
+<!-- testAccessors&#45;&#45;testDataVisualization -->
+<g id="edge66" class="edge" data-name="testAccessors--testDataVisualization">
+
+<path fill="none" stroke="black" d="M1606.78,-921.39C1643.6,-915.25 1693.06,-906.04 1736,-894.8 1758.68,-888.86 1763.34,-884.02 1786,-878 1825.85,-867.41 1839.93,-878.04 1877,-860 1920.4,-838.89 1916.34,-811.14 1959.33,-789.2 1990.12,-773.49 2006.55,-790.84 2035,-771.2 2066.28,-749.6 2053.1,-723.88 2083,-700.4 2094.5,-691.37 2108.58,-684.49 2122.3,-679.33" style=""/>
+<text text-anchor="middle" x="1968.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network -->
+<g id="node5" class="node" pointer-events="visible" data-name="test2x2Network">
+
+<ellipse fill="none" stroke="black" cx="2558" cy="-1641.2" rx="72.94" ry="18" style=""/>
+<text text-anchor="middle" x="2558" y="-1637" font-family="Times,serif" font-size="14.00" style="">test2x2Network</text>
+</g>
+<!-- test2x2Network&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge4" class="edge" data-name="test2x2Network--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M2631.05,-1640.52C2840.47,-1640.47 3428,-1633.23 3428,-1553.4 3428,-1553.4 3428,-1553.4 3428,-885.4 3428,-773.53 3389.8,-750.57 3349,-646.4 3328.66,-594.47 3297,-587.97 3297,-532.2 3297,-532.2 3297,-532.2 3297,-352.6 3297,-237.88 3228.23,-195.69 3117,-167.6 3028.53,-145.25 2434.87,-136.43 2183.31,-133.66" style=""/>
+<text text-anchor="middle" x="3437.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge21" class="edge" data-name="test2x2Network--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M2631.41,-1640.9C2848.78,-1642.01 3474,-1637.86 3474,-1553.4 3474,-1553.4 3474,-1553.4 3474,-130.6 3474,-104.84 3455.46,-99.21 3324,-78.8 3154.25,-52.44 1971.13,-45.67 1597.09,-44.18" style=""/>
+<text text-anchor="middle" x="3483.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testGetFeaturesSize -->
+<g id="edge37" class="edge" data-name="test2x2Network--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M2484.91,-1639.99C2123.17,-1638.84 537.78,-1632.26 437,-1605.2 391.31,-1592.93 344,-1600.71 344,-1553.4 344,-1553.4 344,-1553.4 344,-1240.6 344,-980.06 416.28,-867.04 641,-735.2 731.56,-682.07 993.49,-629.19 1097,-611.6 1169.73,-599.24 1189.01,-604.31 1262,-593.6 1271.8,-592.16 1282.16,-590.44 1292.24,-588.66" style=""/>
+<text text-anchor="middle" x="364.33" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testAccessors -->
+<g id="edge52" class="edge" data-name="test2x2Network--testAccessors">
+
+<path fill="none" stroke="black" d="M2631.12,-1639.47C2748.76,-1636.3 2967,-1621.27 2967,-1553.4 2967,-1553.4 2967,-1553.4 2967,-1418.2 2967,-1358.08 2992.08,-1299.47 2657,-1144.4 2605.69,-1120.65 1705.12,-1002.96 1652,-983.6 1638.36,-978.63 1636.76,-973.71 1624,-966.8 1611.17,-959.85 1596.75,-952.71 1584.21,-946.71" style=""/>
+<text text-anchor="middle" x="2934.33" y="-1281.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2 -->
+<g id="node6" class="node" pointer-events="visible" data-name="test2x2Network2">
+
+<ellipse fill="none" stroke="black" cx="948" cy="-1552.4" rx="77.6" ry="18" style=""/>
+<text text-anchor="middle" x="948" y="-1548.2" font-family="Times,serif" font-size="14.00" style="">test2x2Network2</text>
+</g>
+<!-- test2x2Network&#45;&#45;test2x2Network2 -->
+<g id="edge67" class="edge" data-name="test2x2Network--test2x2Network2">
+
+<path fill="none" stroke="black" d="M2487.26,-1636.39C2222.96,-1622.14 1294.63,-1572.09 1023.12,-1557.45" style=""/>
+<text text-anchor="middle" x="1906.33" y="-1592.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork -->
+<g id="node7" class="node" pointer-events="visible" data-name="test3x2CylinderNetwork">
+
+<ellipse fill="none" stroke="black" cx="1890" cy="-1463.6" rx="106.53" ry="18" style=""/>
+<text text-anchor="middle" x="1890" y="-1459.4" font-family="Times,serif" font-size="14.00" style="">test3x2CylinderNetwork</text>
+</g>
+<!-- test2x2Network&#45;&#45;test3x2CylinderNetwork -->
+<g id="edge68" class="edge" data-name="test2x2Network--test3x2CylinderNetwork">
+
+<path fill="none" stroke="black" d="M2509.42,-1627.43C2388.43,-1595.62 2074.15,-1513.01 1945.82,-1479.27" style=""/>
+<text text-anchor="middle" x="2299.33" y="-1548.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2 -->
+<g id="node8" class="node" pointer-events="visible" data-name="test3x2CylinderNetwork2">
+
+<ellipse fill="none" stroke="black" cx="1763" cy="-1374.8" rx="111.19" ry="18" style=""/>
+<text text-anchor="middle" x="1763" y="-1370.6" font-family="Times,serif" font-size="14.00" style="">test3x2CylinderNetwork2</text>
+</g>
+<!-- test2x2Network&#45;&#45;test3x2CylinderNetwork2 -->
+<g id="edge69" class="edge" data-name="test2x2Network--test3x2CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M2525.64,-1624.66C2479.24,-1602.75 2390.84,-1562.34 2313,-1534.4 2179.31,-1486.42 2142.48,-1484.94 2006,-1445.6 1940.63,-1426.76 1865.33,-1405.14 1816.1,-1391.02" style=""/>
+<text text-anchor="middle" x="2268.33" y="-1503.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork -->
+<g id="node9" class="node" pointer-events="visible" data-name="test3x3TorusNetwork">
+
+<ellipse fill="none" stroke="black" cx="1268" cy="-1108.4" rx="95" ry="18" style=""/>
+<text text-anchor="middle" x="1268" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">test3x3TorusNetwork</text>
+</g>
+<!-- test2x2Network&#45;&#45;test3x3TorusNetwork -->
+<g id="edge70" class="edge" data-name="test2x2Network--test3x3TorusNetwork">
+
+<path fill="none" stroke="black" d="M2485.28,-1639.48C2203.2,-1636.33 1181.11,-1621.56 861,-1570.4 772.2,-1556.21 720.45,-1587.97 666,-1516.4 609.23,-1441.77 680.79,-1387.39 748,-1322 876.45,-1197.02 1088.41,-1141.93 1197.82,-1120.78" style=""/>
+<text text-anchor="middle" x="721.33" y="-1370.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2 -->
+<g id="node10" class="node" pointer-events="visible" data-name="test3x3TorusNetwork2">
+
+<ellipse fill="none" stroke="black" cx="1072" cy="-1019.6" rx="100.16" ry="18" style=""/>
+<text text-anchor="middle" x="1072" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">test3x3TorusNetwork2</text>
+</g>
+<!-- test2x2Network&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge71" class="edge" data-name="test2x2Network--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M2485.05,-1639.67C2147.99,-1636.96 754.48,-1622.62 679,-1570.4 521.7,-1461.59 599.05,-1273.69 740,-1144.4 812.31,-1078.08 923.39,-1046.34 996.86,-1031.84" style=""/>
+<text text-anchor="middle" x="621.33" y="-1326.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork -->
+<g id="node11" class="node" pointer-events="visible" data-name="test3x3CylinderNetwork">
+
+<ellipse fill="none" stroke="black" cx="2104" cy="-1286" rx="106.53" ry="18" style=""/>
+<text text-anchor="middle" x="2104" y="-1281.8" font-family="Times,serif" font-size="14.00" style="">test3x3CylinderNetwork</text>
+</g>
+<!-- test2x2Network&#45;&#45;test3x3CylinderNetwork -->
+<g id="edge72" class="edge" data-name="test2x2Network--test3x3CylinderNetwork">
+
+<path fill="none" stroke="black" d="M2536.71,-1623.64C2460.63,-1564.45 2202.62,-1363.72 2125.77,-1303.94" style=""/>
+<text text-anchor="middle" x="2360.33" y="-1459.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2 -->
+<g id="node12" class="node" pointer-events="visible" data-name="test3x3CylinderNetwork2">
+
+<ellipse fill="none" stroke="black" cx="2452" cy="-1197.2" rx="111.19" ry="18" style=""/>
+<text text-anchor="middle" x="2452" y="-1193" font-family="Times,serif" font-size="14.00" style="">test3x3CylinderNetwork2</text>
+</g>
+<!-- test2x2Network&#45;&#45;test3x3CylinderNetwork2 -->
+<g id="edge73" class="edge" data-name="test2x2Network--test3x3CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M2602.76,-1626.67C2693.28,-1596.75 2884.97,-1518.91 2829,-1410.8 2767.33,-1291.69 2608.37,-1235.32 2517.78,-1212.11" style=""/>
+<text text-anchor="middle" x="2844.33" y="-1415" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge74" class="edge" data-name="test2x2Network--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M2630.6,-1638.67C2724.81,-1635.8 2883.47,-1627.7 2937,-1605.2 2959.03,-1595.94 2967.36,-1591.8 2978,-1570.4 3055.87,-1413.72 3045.85,-1313.74 2934,-1179.2 2849.11,-1077.09 2784.7,-1106.37 2662,-1055.6 2470.58,-976.39 2237.89,-893.36 2140.43,-859.16" style=""/>
+<text text-anchor="middle" x="2993.33" y="-1237.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge75" class="edge" data-name="test2x2Network--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M2484.89,-1640.1C2192.7,-1639.48 1108.14,-1635.17 766,-1605.2 617.67,-1592.21 435,-1702.3 435,-1553.4 435,-1553.4 435,-1553.4 435,-1418.2 435,-1031.24 683.58,-946.77 1037,-789.2 1064.79,-776.81 1096.6,-768.8 1126.51,-763.62" style=""/>
+<text text-anchor="middle" x="488.33" y="-1193" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testGetNeuron -->
+<g id="edge76" class="edge" data-name="test2x2Network--testGetNeuron">
+
+<path fill="none" stroke="black" d="M2484.8,-1640.17C2127.31,-1639.87 573.61,-1636.74 360,-1605.2 276.8,-1592.91 178,-1637.5 178,-1553.4 178,-1553.4 178,-1553.4 178,-1063 178,-954.91 152.19,-905.67 223,-824 320.28,-711.8 369.25,-704.29 506,-646.4 766.82,-535.98 1107.89,-501.48 1248.77,-491.52" style=""/>
+<text text-anchor="middle" x="187.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge77" class="edge" data-name="test2x2Network--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M2484.77,-1639.92C2097.34,-1638.33 300.01,-1629.67 185,-1605.2 127.78,-1593.03 64,-1611.9 64,-1553.4 64,-1553.4 64,-1553.4 64,-1240.6 64,-1121.23 167.95,-825.52 246,-735.2 330.9,-636.95 360.72,-613.35 478,-557.6 886.59,-363.39 1035.19,-453.92 1486,-416 1500.5,-414.78 1515.84,-413.14 1530.76,-411.36" style=""/>
+<text text-anchor="middle" x="127.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge78" class="edge" data-name="test2x2Network--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M2630.93,-1639.23C2818.14,-1635.79 3301,-1620.4 3301,-1553.4 3301,-1553.4 3301,-1553.4 3301,-1151.8 3301,-1135.72 3103.54,-623.74 3093,-611.6 2912.29,-403.55 2579.47,-339.08 2384.8,-319.12" style=""/>
+<text text-anchor="middle" x="3249.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testIterator -->
+<g id="edge79" class="edge" data-name="test2x2Network--testIterator">
+
+<path fill="none" stroke="black" d="M2484.66,-1640.33C2086.27,-1640.89 195.72,-1641.64 78,-1605.2 38.25,-1592.9 0,-1595.01 0,-1553.4 0,-1553.4 0,-1553.4 0,-974.2 0,-893.4 32.43,-878.05 69,-806 124.94,-695.79 122.12,-658.14 194,-557.6 299.07,-410.64 343.24,-379.22 501,-291.2 538.09,-270.51 548.5,-265.44 590,-256.4 697.92,-232.89 1029.58,-224.62 1159.25,-222.23" style=""/>
+<text text-anchor="middle" x="18.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network&#45;&#45;testDataVisualization -->
+<g id="edge80" class="edge" data-name="test2x2Network--testDataVisualization">
+
+<path fill="none" stroke="black" d="M2629.36,-1636.89C2784.78,-1628.73 3140,-1604.48 3140,-1553.4 3140,-1553.4 3140,-1553.4 3140,-1418.2 3140,-1316.93 3068.88,-1313.36 3007,-1233.2 2944.39,-1152.09 2928.22,-1132.06 2860,-1055.6 2779.73,-965.63 2744.51,-956.34 2672,-860 2650.13,-830.95 2659.56,-811.7 2631,-789.2 2571,-741.93 2356.41,-697.66 2245.09,-677.23" style=""/>
+<text text-anchor="middle" x="2959.33" y="-1148.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge5" class="edge" data-name="test2x2Network2--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1025.71,-1550.98C1361.91,-1548.83 2682.26,-1536.91 2859,-1481.6 2993.25,-1439.58 3025.69,-1407.47 3121,-1304 3275.07,-1136.74 3343,-1070.41 3343,-843 3343,-843 3343,-843 3343,-707.8 3343,-679.81 3341.69,-671.35 3329,-646.4 3314.89,-618.66 3298.24,-620.74 3283,-593.6 3193.67,-434.58 3283.66,-335.54 3159,-202.4 3129.97,-171.4 3111.59,-176.2 3070,-167.6 2903.87,-133.25 2408.87,-130.95 2184.18,-131.79" style=""/>
+<text text-anchor="middle" x="3352.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge22" class="edge" data-name="test2x2Network2--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M870.7,-1550.21C682.54,-1546.29 216,-1529.99 216,-1464.6 216,-1464.6 216,-1464.6 216,-1329.4 216,-1242.39 47,-1063.21 47,-976.2 47,-976.2 47,-976.2 47,-130.6 47,-72.51 110.27,-91.31 167,-78.8 282.69,-53.29 1073.77,-46.15 1371.23,-44.35" style=""/>
+<text text-anchor="middle" x="56.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testGetFeaturesSize -->
+<g id="edge38" class="edge" data-name="test2x2Network2--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M877.66,-1544.39C831.37,-1538.69 775.81,-1529.44 756,-1516.4 697.72,-1478.02 417.66,-1027.55 452,-966.8 507.03,-869.44 789.45,-768.16 889,-717.2 950.01,-685.97 961.54,-669.7 1026,-646.4 1050.78,-637.44 1204.48,-606.26 1292.42,-588.76" style=""/>
+<text text-anchor="middle" x="486.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testAccessors -->
+<g id="edge53" class="edge" data-name="test2x2Network2--testAccessors">
+
+<path fill="none" stroke="black" d="M952.09,-1534.01C958.79,-1506.93 973.33,-1453.38 993,-1410.8 1031.98,-1326.44 1046.39,-1306.63 1103.33,-1233.2 1123.69,-1206.95 1126.22,-1195.79 1155,-1179.2 1240.99,-1129.62 1286.44,-1176.71 1372,-1126.4 1412.76,-1102.43 1504.07,-991.55 1538.51,-948.73" style=""/>
+<text text-anchor="middle" x="1113.33" y="-1237.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;test3x2CylinderNetwork -->
+<g id="edge81" class="edge" data-name="test2x2Network2--test3x2CylinderNetwork">
+
+<path fill="none" stroke="black" d="M1019.19,-1544.84C1187.74,-1529.31 1611.09,-1490.3 1798.4,-1473.04" style=""/>
+<text text-anchor="middle" x="1512.33" y="-1503.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;test3x2CylinderNetwork2 -->
+<g id="edge82" class="edge" data-name="test2x2Network2--test3x2CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M983.22,-1536.09C994.94,-1530.47 1007.83,-1523.68 1019,-1516.4 1080.21,-1476.49 1077.07,-1437.7 1145,-1410.8 1190.84,-1392.65 1488.49,-1382.54 1653.4,-1378.26" style=""/>
+<text text-anchor="middle" x="1101.33" y="-1459.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;test3x3TorusNetwork -->
+<g id="edge83" class="edge" data-name="test2x2Network2--test3x3TorusNetwork">
+
+<path fill="none" stroke="black" d="M947.32,-1534C946.84,-1512.88 947.11,-1476.3 953,-1445.6 965.5,-1380.5 988.76,-1313.99 1044,-1233.2 1075.36,-1187.33 1083.81,-1172.05 1132,-1144.4 1151.35,-1133.3 1174.24,-1125.66 1195.67,-1120.43" style=""/>
+<text text-anchor="middle" x="1002.33" y="-1326.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge84" class="edge" data-name="test2x2Network2--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M918.76,-1535.58C895.56,-1520.66 867,-1495.93 867,-1464.6 867,-1464.6 867,-1464.6 867,-1329.4 867,-1198.13 997.18,-1079.98 1050.06,-1037.4" style=""/>
+<text text-anchor="middle" x="886.33" y="-1281.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;test3x3CylinderNetwork -->
+<g id="edge85" class="edge" data-name="test2x2Network2--test3x3CylinderNetwork">
+
+<path fill="none" stroke="black" d="M1010.43,-1541.3C1212.93,-1508.48 1840.92,-1406.15 1883,-1392.8 1920.81,-1380.8 2020.82,-1330.13 2072.34,-1303.51" style=""/>
+<text text-anchor="middle" x="1796.33" y="-1415" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;test3x3CylinderNetwork2 -->
+<g id="edge86" class="edge" data-name="test2x2Network2--test3x3CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M1025.58,-1551.16C1240.55,-1549.74 1861.81,-1540.44 2374,-1481.6 2507.29,-1466.29 2585.03,-1530.6 2671,-1427.6 2741.38,-1343.26 2569.07,-1251.06 2489.58,-1214.47" style=""/>
+<text text-anchor="middle" x="2696.33" y="-1370.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge87" class="edge" data-name="test2x2Network2--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M963.37,-1534.62C983.71,-1512.86 1021.2,-1474.3 1057,-1445.6 1078.99,-1427.97 1086.19,-1425.87 1110,-1410.8 1117.23,-1406.23 1628.18,-1093.87 1636,-1090.4 1711.42,-1056.92 1738.72,-1071.39 1814,-1037.6 1921.74,-989.24 2031.6,-898.07 2074.85,-860.19" style=""/>
+<text text-anchor="middle" x="1496.33" y="-1193" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge88" class="edge" data-name="test2x2Network2--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M875.02,-1546C822.91,-1537.69 762,-1516.81 762,-1464.6 762,-1464.6 762,-1464.6 762,-1240.6 762,-1011.39 890.38,-971.3 1066,-824 1097.17,-797.86 1139.46,-780.44 1174.06,-769.55" style=""/>
+<text text-anchor="middle" x="781.33" y="-1148.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testGetNeuron -->
+<g id="edge89" class="edge" data-name="test2x2Network2--testGetNeuron">
+
+<path fill="none" stroke="black" d="M873.28,-1547.31C793.89,-1542.22 674,-1532.23 631,-1516.4 565,-1492.09 543.66,-1482.75 500,-1427.6 416.38,-1321.99 486.48,-1240.42 392,-1144.4 376.89,-1129.05 364.28,-1139.26 347,-1126.4 295.86,-1088.36 258.19,-1062.71 276.33,-1001.6 303.14,-911.3 322.96,-888.08 392,-824 399.5,-817.03 705.58,-650.42 715,-646.4 786.98,-615.66 809.92,-621.61 883,-593.6 919.03,-579.79 925.85,-571.09 962,-557.6 1013.23,-538.48 1026.61,-534.61 1080,-522.8 1138.16,-509.94 1205.5,-500.42 1252.97,-494.58" style=""/>
+<text text-anchor="middle" x="286.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge90" class="edge" data-name="test2x2Network2--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M871.83,-1548.39C829.94,-1544.43 777.91,-1535.65 735,-1516.4 712.57,-1506.34 710.69,-1497.57 692,-1481.6 512.75,-1328.45 437.92,-1316.16 298,-1126.4 215.82,-1014.95 170.69,-952.21 223,-824 270.21,-708.29 326.5,-696.48 441,-646.4 557.12,-595.61 860.88,-502.71 983,-468.8 1049.78,-450.26 1066.36,-443.54 1135,-434 1289.72,-412.49 1330.42,-429.91 1486,-416 1500.26,-414.72 1515.34,-413.08 1530.03,-411.32" style=""/>
+<text text-anchor="middle" x="220.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge91" class="edge" data-name="test2x2Network2--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1025.28,-1550.49C1271.42,-1547.43 2035.36,-1536.53 2282,-1516.4 2570.85,-1492.83 2670.26,-1560.11 2928,-1427.6 3002.49,-1389.3 3187,-1237.55 3187,-1153.8 3187,-1153.8 3187,-1153.8 3187,-1018.6 3187,-830.6 3111.21,-786.64 2986,-646.4 2846.69,-490.36 2781.15,-481.05 2598,-380 2564.76,-361.66 2556.58,-355.34 2520,-345.2 2475.59,-332.89 2426.13,-324.91 2380.91,-319.74" style=""/>
+<text text-anchor="middle" x="3191.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testIterator -->
+<g id="edge92" class="edge" data-name="test2x2Network2--testIterator">
+
+<path fill="none" stroke="black" d="M870.13,-1551.55C795.67,-1549.91 680.86,-1542.71 585,-1516.4 549.95,-1506.78 541.15,-1501.9 511,-1481.6 336.88,-1364.37 290.21,-1328.93 164,-1161.2 127.05,-1112.09 116.16,-1097.4 102,-1037.6 80.61,-947.27 7.7,-1062.25 138,-700.4 163.58,-629.37 178.71,-613 230,-557.6 305.72,-475.82 525.71,-292.95 631,-256.4 727.66,-222.85 1034.93,-220.48 1159.15,-220.95" style=""/>
+<text text-anchor="middle" x="88.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test2x2Network2&#45;&#45;testDataVisualization -->
+<g id="edge93" class="edge" data-name="test2x2Network2--testDataVisualization">
+
+<path fill="none" stroke="black" d="M877.55,-1544.51C835.45,-1539.07 787.11,-1530.09 771,-1516.4 719.12,-1472.32 630.46,-970.86 666,-912.8 729.05,-809.79 794.53,-830.56 908,-789.2 941.43,-777.02 951.74,-780.79 986,-771.2 1035.13,-757.45 1045.07,-745.66 1095,-735.2 1256.23,-701.42 1299.69,-712.17 1464,-700.4 1582.21,-691.93 1921.73,-676.58 2085.92,-669.36" style=""/>
+<text text-anchor="middle" x="681.33" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge6" class="edge" data-name="test3x2CylinderNetwork--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1992.44,-1458.31C2199.5,-1449.58 2649.64,-1430.38 2666,-1427.6 2719.07,-1418.59 2735.67,-1420.2 2782,-1392.8 2799.03,-1382.73 2891.3,-1276.83 2909,-1268 2957.26,-1243.92 2983.25,-1278.55 3029,-1250 3199.21,-1143.77 3145,-555.24 3145,-354.6 3145,-354.6 3145,-354.6 3145,-219.4 3145,-142.11 3055.17,-180.71 2979,-167.6 2829.46,-141.85 2391.92,-135.04 2183.67,-133.24" style=""/>
+<text text-anchor="middle" x="3161.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge23" class="edge" data-name="test3x2CylinderNetwork--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1992.14,-1458.19C2076.35,-1454.61 2198.91,-1449.53 2306,-1445.6 2367.32,-1443.35 2801.14,-1450.68 2858,-1427.6 3014.84,-1363.92 3281.55,-1006.71 3366,-860 3401.94,-797.56 3427,-781.85 3427,-709.8 3427,-709.8 3427,-709.8 3427,-130.6 3427,-28.42 3304.4,-91.42 3203,-78.8 3044.8,-59.11 1953.61,-47.91 1596.7,-44.74" style=""/>
+<text text-anchor="middle" x="3434.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testGetFeaturesSize -->
+<g id="edge39" class="edge" data-name="test3x2CylinderNetwork--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1784.45,-1460.6C1624.46,-1456.96 1328.17,-1447.7 1224,-1427.6 1176.97,-1418.52 1163.99,-1415.84 1122,-1392.8 1026.74,-1340.54 995.9,-1315.45 954,-1215.2 880.51,-1039.36 795.62,-945.27 905,-789.2 969.36,-697.37 1010.35,-691.53 1113,-646.4 1145.57,-632.08 1157.19,-639.48 1191,-628.4 1208.93,-622.52 1212.21,-617.91 1230,-611.6 1252.66,-603.56 1278.16,-596.1 1300.11,-590.15" style=""/>
+<text text-anchor="middle" x="884.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testAccessors -->
+<g id="edge54" class="edge" data-name="test3x2CylinderNetwork--testAccessors">
+
+<path fill="none" stroke="black" d="M1795.78,-1454.89C1745.54,-1446.47 1685.5,-1428.98 1643,-1392.8 1506.03,-1276.19 1537.5,-1018.45 1548.86,-949.21" style=""/>
+<text text-anchor="middle" x="1557.33" y="-1193" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;test3x2CylinderNetwork2 -->
+<g id="edge94" class="edge" data-name="test3x2CylinderNetwork--test3x2CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M1865.21,-1445.66C1842.83,-1430.36 1810.08,-1407.98 1787.73,-1392.7" style=""/>
+<text text-anchor="middle" x="1846.33" y="-1415" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;test3x3TorusNetwork -->
+<g id="edge95" class="edge" data-name="test3x2CylinderNetwork--test3x3TorusNetwork">
+
+<path fill="none" stroke="black" d="M1783.07,-1463.56C1622.95,-1463.92 1335.92,-1459.96 1302,-1427.6 1216.58,-1346.1 1249.54,-1180.65 1263.21,-1126.78" style=""/>
+<text text-anchor="middle" x="1257.33" y="-1281.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge96" class="edge" data-name="test3x2CylinderNetwork--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M1784.09,-1461.04C1622.21,-1457.98 1327.35,-1449.45 1284,-1427.6 1142.02,-1356.04 1141.86,-1277.04 1091,-1126.4 1080.79,-1096.16 1075.74,-1059.12 1073.52,-1037.85" style=""/>
+<text text-anchor="middle" x="1139.33" y="-1237.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;test3x3CylinderNetwork -->
+<g id="edge97" class="edge" data-name="test3x2CylinderNetwork--test3x3CylinderNetwork">
+
+<path fill="none" stroke="black" d="M1910.52,-1445.76C1951.32,-1412.28 2042.22,-1337.69 2083.23,-1304.04" style=""/>
+<text text-anchor="middle" x="2027.33" y="-1370.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;test3x3CylinderNetwork2 -->
+<g id="edge98" class="edge" data-name="test3x2CylinderNetwork--test3x3CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M1960.82,-1449.74C2056.18,-1430.01 2228.39,-1385.67 2354,-1304 2391.15,-1279.84 2423.78,-1238.51 2440.38,-1215.31" style=""/>
+<text text-anchor="middle" x="2332.33" y="-1326.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge99" class="edge" data-name="test3x2CylinderNetwork--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M1996.4,-1462.07C2156.86,-1454.64 2454.53,-1413.33 2572,-1215.2 2655.29,-1074.72 2723.14,-1257.56 2300,-966.8 2239.82,-925.45 2165.65,-882.78 2124.74,-859.92" style=""/>
+<text text-anchor="middle" x="2643.33" y="-1148.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge100" class="edge" data-name="test3x2CylinderNetwork--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M1783.19,-1462.5C1611.59,-1460.62 1283.65,-1449.45 1184,-1392.8 1010.4,-1294.11 897.25,-1190.16 963,-1001.6 979.59,-954.02 1065.23,-856.2 1104,-824 1131.32,-801.31 1167.2,-782.91 1194.66,-770.72" style=""/>
+<text text-anchor="middle" x="955.33" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testGetNeuron -->
+<g id="edge101" class="edge" data-name="test3x2CylinderNetwork--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1783.78,-1461.41C1609.89,-1458.81 1272.08,-1450.85 1155,-1427.6 1110.08,-1418.68 1098.6,-1414 1058,-1392.8 1021.27,-1373.63 1014.61,-1364.37 982,-1338.8 944.11,-1309.09 937.54,-1298.15 900,-1268 874.27,-1247.34 692.06,-1104 662,-1090.4 598.37,-1061.61 558.96,-1091.04 514,-1037.6 478.29,-995.16 481.26,-957.58 514,-912.8 572.42,-832.89 787.8,-700.03 871,-646.4 888.17,-635.33 1012.98,-565.05 1032,-557.6 1107.84,-527.89 1200.22,-507.89 1258.09,-497.17" style=""/>
+<text text-anchor="middle" x="499.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge102" class="edge" data-name="test3x2CylinderNetwork--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1993.94,-1459.19C2201.23,-1451.61 2651.24,-1430.94 2710,-1392.8 2787.88,-1342.25 2793.71,-1304.25 2820,-1215.2 2850.2,-1112.9 2882.5,-823.74 2823,-735.2 2751.46,-628.75 2432.57,-509.68 2311,-468.8 2223.82,-439.49 2198.31,-445.04 2107,-434 1982.09,-418.9 1838.35,-409.56 1739.39,-404.36" style=""/>
+<text text-anchor="middle" x="2865.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge103" class="edge" data-name="test3x2CylinderNetwork--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1992.64,-1458.57C2174.74,-1451.28 2540.74,-1435.86 2599,-1427.6 2665.47,-1418.17 2686.74,-1424.36 2746,-1392.8 2818.12,-1354.4 2807.21,-1303.1 2881,-1268 2932.08,-1243.7 2963.46,-1286.12 3007,-1250 3051.65,-1212.95 3039.54,-1183.64 3049,-1126.4 3061.65,-1049.88 3058.34,-880.13 3036,-824 2995.54,-722.33 2782.15,-534.96 2695,-468.8 2645.24,-431.03 2503.47,-349.53 2491,-345.2 2466.25,-336.6 2411.11,-328.64 2358.04,-322.48" style=""/>
+<text text-anchor="middle" x="3059.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testIterator -->
+<g id="edge104" class="edge" data-name="test3x2CylinderNetwork--testIterator">
+
+<path fill="none" stroke="black" d="M1783.98,-1461.32C1598.14,-1458.5 1220.97,-1450.14 1091,-1427.6 907.67,-1395.8 856.92,-1388.22 691,-1304 646.79,-1281.56 357.47,-1080.73 333,-1037.6 305.56,-989.23 312.7,-967.25 324,-912.8 331.71,-875.65 577.6,-315.19 607,-291.2 655.68,-251.49 682,-266.51 744,-256.4 893.37,-232.03 1072.37,-224.6 1159.36,-222.36" style=""/>
+<text text-anchor="middle" x="368.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork&#45;&#45;testDataVisualization -->
+<g id="edge105" class="edge" data-name="test3x2CylinderNetwork--testDataVisualization">
+
+<path fill="none" stroke="black" d="M1989.9,-1457.14C2069.37,-1451.97 2183.22,-1442.7 2282,-1427.6 2465.45,-1399.56 2573.56,-1483.31 2690,-1338.8 2804.2,-1197.07 2637.18,-1115.9 2565,-948.8 2551.82,-918.3 2563.95,-902.03 2541,-878 2525.84,-862.12 2513.85,-871.26 2495,-860 2400.03,-803.27 2402.68,-750.41 2304,-700.4 2284.62,-690.58 2262.13,-683.23 2241.52,-677.86" style=""/>
+<text text-anchor="middle" x="2648.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge7" class="edge" data-name="test3x2CylinderNetwork2--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1858.21,-1365.2C1893.6,-1362.22 1934.11,-1359.06 1971,-1356.8 2166.35,-1344.83 2216.43,-1359.96 2411,-1338.8 2498.96,-1329.24 2520.56,-1322.86 2607,-1304 2738.28,-1275.35 2785.85,-1292.16 2896,-1215.2 2923.06,-1196.29 2928.38,-1188.46 2947,-1161.2 3066.74,-985.92 3082.23,-925.52 3123,-717.2 3133.6,-663.04 3133.42,-648.77 3135,-593.6 3138.96,-455.8 3111.99,-421.16 3066,-291.2 3051.79,-251.05 3061.04,-231.56 3030,-202.4 2994.48,-169.02 2973.94,-176.42 2926,-167.6 2787.01,-142.03 2382.4,-135.14 2183.72,-133.28" style=""/>
+<text text-anchor="middle" x="3128.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge24" class="edge" data-name="test3x2CylinderNetwork2--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1652.31,-1372.65C1553.84,-1370 1406.3,-1362.03 1280,-1338.8 1154,-1315.62 630.12,-1194.83 466,-1072.4 441.49,-1054.11 151,-651.58 151,-621 151,-621 151,-621 151,-130.6 151,-80.94 201.95,-91.34 250,-78.8 356.51,-51.01 1086.76,-45.28 1371.07,-44.1" style=""/>
+<text text-anchor="middle" x="216.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testGetFeaturesSize -->
+<g id="edge40" class="edge" data-name="test3x2CylinderNetwork2--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1735.65,-1356.98C1728.63,-1351.77 1721.52,-1345.59 1716,-1338.8 1700,-1319.11 1692,-1312.37 1692,-1287 1692,-1287 1692,-1287 1692,-1151.8 1692,-932.37 1642.15,-860.42 1492,-700.4 1453.24,-659.09 1402.55,-616.07 1374.65,-593.21" style=""/>
+<text text-anchor="middle" x="1685.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testAccessors -->
+<g id="edge55" class="edge" data-name="test3x2CylinderNetwork2--testAccessors">
+
+<path fill="none" stroke="black" d="M1710.21,-1358.72C1698.69,-1353.7 1687.2,-1347.18 1678,-1338.8 1559.05,-1230.48 1551.27,-1012.43 1551.62,-949.3" style=""/>
+<text text-anchor="middle" x="1587.33" y="-1148.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;test3x3TorusNetwork -->
+<g id="edge106" class="edge" data-name="test3x2CylinderNetwork2--test3x3TorusNetwork">
+
+<path fill="none" stroke="black" d="M1652.47,-1372.26C1568.9,-1369.28 1462.39,-1361.05 1425,-1338.8 1381.56,-1312.94 1304.07,-1175.77 1277.36,-1126.8" style=""/>
+<text text-anchor="middle" x="1359.33" y="-1237.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge107" class="edge" data-name="test3x2CylinderNetwork2--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M1656.13,-1369.61C1584.01,-1365.27 1487.03,-1356.5 1403,-1338.8 1379.65,-1333.88 1375.18,-1327.68 1352,-1322 1303.88,-1310.21 1282.99,-1331.82 1242,-1304 1142.07,-1236.17 1091.54,-1088.28 1076.73,-1037.85" style=""/>
+<text text-anchor="middle" x="1167.33" y="-1193" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;test3x3CylinderNetwork -->
+<g id="edge108" class="edge" data-name="test3x2CylinderNetwork2--test3x3CylinderNetwork">
+
+<path fill="none" stroke="black" d="M1812.39,-1358.22C1827.1,-1352.84 1843.02,-1346.26 1857,-1338.8 1868.27,-1332.78 1868.51,-1326.85 1880.33,-1322 1919.14,-1306.06 1964.48,-1297.33 2004.15,-1292.57" style=""/>
+<text text-anchor="middle" x="1889.33" y="-1326.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;test3x3CylinderNetwork2 -->
+<g id="edge109" class="edge" data-name="test3x2CylinderNetwork2--test3x3CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M1856.84,-1364.85C1949.97,-1354.72 2096.31,-1335.39 2220,-1304 2288.68,-1286.57 2306.34,-1281.11 2370,-1250 2390.58,-1239.95 2412.43,-1225.96 2428.4,-1215.05" style=""/>
+<text text-anchor="middle" x="2340.33" y="-1281.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge110" class="edge" data-name="test3x2CylinderNetwork2--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M1761.25,-1356.42C1759.28,-1328.42 1758.93,-1272.5 1782,-1233.2 1809,-1187.21 1841.19,-1199.79 1878,-1161.2 1927.77,-1109.02 2047.33,-918.36 2083.47,-860.06" style=""/>
+<text text-anchor="middle" x="1941.33" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge111" class="edge" data-name="test3x2CylinderNetwork2--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M1699.8,-1359.66C1627.93,-1340.09 1512.85,-1297.44 1453,-1215.2 1395.63,-1136.37 1442.03,-1090.95 1403,-1001.6 1401.61,-998.42 1285.31,-826.88 1247.63,-771.35" style=""/>
+<text text-anchor="middle" x="1430.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testGetNeuron -->
+<g id="edge112" class="edge" data-name="test3x2CylinderNetwork2--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1752.19,-1356.58C1742.57,-1339.57 1730,-1312.47 1730,-1287 1730,-1287 1730,-1287 1730,-1151.8 1730,-1068.43 1720.31,-1047.4 1699,-966.8 1645.96,-766.15 1610.43,-714 1474,-557.6 1459.58,-541.07 1457.95,-533.85 1439,-522.8 1417.97,-510.54 1392.44,-502.4 1369.95,-497.08" style=""/>
+<text text-anchor="middle" x="1702.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge113" class="edge" data-name="test3x2CylinderNetwork2--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1791.61,-1356.93C1884.51,-1301.79 2185.27,-1120.58 2419,-948.8 2468.8,-912.2 2499.73,-915.94 2526,-860 2534.74,-841.4 2537.52,-770.96 2522,-735.2 2494.87,-672.68 2457.89,-677 2397,-646.4 2251.1,-573.09 2200.64,-584.26 2058,-504.8 2010.74,-478.48 2009.59,-453.14 1959,-434 1919.66,-419.12 1819.65,-409.99 1738.21,-404.8" style=""/>
+<text text-anchor="middle" x="2525.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge114" class="edge" data-name="test3x2CylinderNetwork2--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1858.74,-1365.3C1894.01,-1362.34 1934.3,-1359.18 1971,-1356.8 2137.51,-1346 2180.8,-1362.27 2346,-1338.8 2514.29,-1314.89 2554.71,-1297.23 2718,-1250 2764.01,-1236.69 2782.23,-1244.66 2820,-1215.2 2894.14,-1157.36 2903.41,-1126.17 2935,-1037.6 3029.34,-773.13 2876.86,-647.17 2660,-468.8 2578.13,-401.46 2555.59,-381.54 2456,-345.2 2426.79,-334.54 2394.27,-327.13 2363.28,-321.97" style=""/>
+<text text-anchor="middle" x="2971.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testIterator -->
+<g id="edge115" class="edge" data-name="test3x2CylinderNetwork2--testIterator">
+
+<path fill="none" stroke="black" d="M1657.72,-1368.68C1575.05,-1363.71 1457.23,-1354.56 1355,-1338.8 1321.24,-1333.6 1313.35,-1329.4 1280,-1322 1243.57,-1313.92 1229.8,-1323.51 1198,-1304 1163.33,-1282.73 1173.36,-1256.47 1140,-1233.2 960.99,-1108.34 860.36,-1189.22 676,-1072.4 554.74,-995.56 522.39,-946.59 493.33,-806 478.93,-736.32 484.25,-714.15 506,-646.4 534.24,-558.44 652.58,-352.16 722,-291.2 747.81,-268.54 757.94,-265.73 791,-256.4 858.94,-237.23 1062.75,-227.1 1159.68,-223.25" style=""/>
+<text text-anchor="middle" x="503.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x2CylinderNetwork2&#45;&#45;testDataVisualization -->
+<g id="edge116" class="edge" data-name="test3x2CylinderNetwork2--testDataVisualization">
+
+<path fill="none" stroke="black" d="M1772.7,-1356.67C1788.4,-1329.5 1820.95,-1275.27 1854,-1233.2 1894.36,-1181.83 1910.47,-1174.2 1955,-1126.4 2042.82,-1032.12 2053.19,-996.66 2151,-912.8 2183.06,-885.31 2210.09,-897.25 2230,-860 2262.35,-799.47 2214.1,-717.56 2189.7,-682.48" style=""/>
+<text text-anchor="middle" x="2069.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge8" class="edge" data-name="test3x3TorusNetwork--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1300.74,-1091.13C1326.71,-1079.06 1364.28,-1063.39 1399,-1055.6 1459.19,-1042.1 1618.74,-1060.54 1676,-1037.6 1690.26,-1031.89 1771.27,-959.8 1782,-948.8 1803.42,-926.84 1808.04,-920.37 1825,-894.8 1949.24,-707.52 2011.5,-668.58 2067,-450.8 2074.53,-421.27 2056.1,-449.26 2042,-327.2 2040.16,-311.31 2040.56,-307.13 2042,-291.2 2046.7,-239.35 2059.88,-179.12 2066.74,-150.06" style=""/>
+<text text-anchor="middle" x="2020.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge25" class="edge" data-name="test3x3TorusNetwork--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1177.51,-1102.49C1040.17,-1094.86 790.69,-1080.21 750,-1072.4 700.47,-1062.9 686.08,-1062.11 642,-1037.6 545.76,-984.09 317.91,-813.22 264,-717.2 223.26,-644.63 235,-615.43 235,-532.2 235,-532.2 235,-532.2 235,-130.6 235,-74.95 294.8,-91.41 349,-78.8 446.57,-56.09 1104.65,-47.38 1371.72,-44.75" style=""/>
+<text text-anchor="middle" x="244.33" y="-571.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testGetFeaturesSize -->
+<g id="edge41" class="edge" data-name="test3x3TorusNetwork--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1255.5,-1090.15C1209.88,-1026.24 1056.95,-803.12 1095,-735.2 1098.28,-729.35 1260.01,-632.58 1326.2,-593.14" style=""/>
+<text text-anchor="middle" x="1126.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testAccessors -->
+<g id="edge56" class="edge" data-name="test3x3TorusNetwork--testAccessors">
+
+<path fill="none" stroke="black" d="M1290.51,-1090.71C1298.28,-1084.93 1307.03,-1078.39 1315,-1072.4 1377,-1025.76 1385.78,-1003.75 1454,-966.8 1471,-957.59 1490.91,-949.97 1508.32,-944.21" style=""/>
+<text text-anchor="middle" x="1408.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge117" class="edge" data-name="test3x3TorusNetwork--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M1223.27,-1092.23C1208.9,-1086.7 1193.13,-1079.94 1179.33,-1072.4 1168.12,-1066.27 1167.16,-1061.83 1156,-1055.6 1143.04,-1048.36 1128.27,-1041.71 1114.77,-1036.21" style=""/>
+<text text-anchor="middle" x="1189.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge120" class="edge" data-name="test3x3TorusNetwork--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M1342.53,-1096.88C1385.96,-1090.46 1441.71,-1081.71 1491,-1072.4 1524.99,-1065.98 1532.82,-1060.94 1567,-1055.6 1652.55,-1042.23 1678.07,-1062.51 1761,-1037.6 1809.75,-1022.96 1823,-1016.31 1862,-983.6 1907.74,-945.24 1894.67,-910.1 1945,-878 1961.8,-867.28 1981.55,-859.84 2001.07,-854.68" style=""/>
+<text text-anchor="middle" x="1887.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge121" class="edge" data-name="test3x3TorusNetwork--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M1266.34,-1090.01C1262.48,-1049.62 1252.69,-946.36 1245,-860 1242.22,-828.78 1239.16,-792.37 1237.42,-771.43" style=""/>
+<text text-anchor="middle" x="1263.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testGetNeuron -->
+<g id="edge122" class="edge" data-name="test3x3TorusNetwork--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1185.53,-1099.1C1122.08,-1090.26 1033.61,-1072.5 963,-1037.6 834.26,-973.96 700.68,-921.59 756.33,-789.2 761.8,-776.2 835.63,-708.74 847,-700.4 916.36,-649.5 1110.21,-552.37 1191,-522.8 1215.29,-513.91 1242.94,-505.86 1265.87,-499.73" style=""/>
+<text text-anchor="middle" x="766.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge123" class="edge" data-name="test3x3TorusNetwork--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1179.62,-1101.59C1100.49,-1094 982.54,-1076.69 887,-1037.6 839.16,-1018.03 827.02,-1012.25 784,-983.6 654.09,-897.11 601.17,-777.4 686,-646.4 686.79,-645.19 1061.61,-469.21 1063,-468.8 1175.69,-435.64 1208.4,-448.26 1325,-434 1396.47,-425.26 1414.51,-424.56 1486,-416 1499.41,-414.39 1513.56,-412.64 1527.45,-410.9" style=""/>
+<text text-anchor="middle" x="658.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge124" class="edge" data-name="test3x3TorusNetwork--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1273.06,-1090.05C1282.66,-1057.57 1303.57,-988.85 1315,-966.8 1333.13,-931.83 1386.92,-845.39 1420,-824 1452.06,-803.27 1467.52,-817.27 1504,-806 1603.56,-775.23 1626.58,-761.29 1721,-717.2 1751.05,-703.17 1762.19,-704.4 1787,-682.4 1815.64,-657.01 1807.35,-636.97 1836,-611.6 1887.5,-566 1920.8,-584.4 1973,-539.6 2017.28,-501.6 2009,-474.5 2051,-434 2097.72,-388.94 2162.5,-348.99 2200.55,-327.33" style=""/>
+<text text-anchor="middle" x="1770.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testIterator -->
+<g id="edge125" class="edge" data-name="test3x3TorusNetwork--testIterator">
+
+<path fill="none" stroke="black" d="M1175.4,-1104.02C1036.85,-1097.62 783.38,-1080.33 704,-1037.6 556.19,-958.03 526.85,-883.5 504,-717.2 497.52,-670.01 535.46,-666.53 564,-628.4 685.5,-466.1 642.57,-338.36 828,-256.4 885.94,-230.79 1068.07,-223.92 1159.11,-222.07" style=""/>
+<text text-anchor="middle" x="557.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork&#45;&#45;testDataVisualization -->
+<g id="edge126" class="edge" data-name="test3x3TorusNetwork--testDataVisualization">
+
+<path fill="none" stroke="black" d="M1322.38,-1093.27C1345.21,-1087.14 1371.98,-1079.71 1396,-1072.4 1418.43,-1065.57 1423,-1060.13 1446,-1055.6 1506.52,-1043.68 1666.47,-1062.28 1723,-1037.6 1744.32,-1028.29 1743.91,-1017.39 1761,-1001.6 1804.29,-961.6 1909.48,-857.46 1958,-824 2000.35,-794.8 2018.73,-800.52 2061,-771.2 2100.19,-744.01 2140.01,-704.55 2161.28,-682.31" style=""/>
+<text text-anchor="middle" x="1900.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge9" class="edge" data-name="test3x3TorusNetwork2--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1024.55,-1003.39C936.91,-973 748.78,-896.71 641,-771.2 488,-593.05 342.21,-407.47 522,-256.4 631.44,-164.45 1621.34,-139.9 1958.86,-134.17" style=""/>
+<text text-anchor="middle" x="512.33" y="-571.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge26" class="edge" data-name="test3x3TorusNetwork2--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M988.19,-1009.45C948.29,-1003.94 900.18,-995.61 858,-983.6 819.13,-972.53 809.06,-968.89 774,-948.8 669.29,-888.79 341,-741.69 341,-621 341,-621 341,-621 341,-130.6 341,-53.74 430.25,-91.8 506,-78.8 669.16,-50.8 1150.64,-45.15 1371.26,-44.04" style=""/>
+<text text-anchor="middle" x="350.33" y="-527" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testGetFeaturesSize -->
+<g id="edge42" class="edge" data-name="test3x3TorusNetwork2--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1074,-1001.27C1076.04,-980.23 1078.35,-943.73 1074,-912.8 1062.97,-834.46 1012.09,-796.58 1062,-735.2 1129.6,-652.06 1173.2,-659.6 1269,-611.6 1283.13,-604.52 1299.04,-597.69 1313.24,-591.96" style=""/>
+<text text-anchor="middle" x="1052.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testAccessors -->
+<g id="edge57" class="edge" data-name="test3x3TorusNetwork2--testAccessors">
+
+<path fill="none" stroke="black" d="M1136.01,-1005.38C1189.26,-994.53 1267.11,-979.02 1335.33,-966.8 1390.28,-956.96 1453.29,-946.92 1497.15,-940.13" style=""/>
+<text text-anchor="middle" x="1345.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge129" class="edge" data-name="test3x3TorusNetwork2--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M1167.69,-1013.98C1294.42,-1006.55 1524.38,-988.56 1717,-948.8 1796.72,-932.35 1817.67,-927.98 1892,-894.8 1905.25,-888.88 1906.47,-883.24 1920,-878 1946.44,-867.76 1976.34,-860.36 2003.81,-855.08" style=""/>
+<text text-anchor="middle" x="1858.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge130" class="edge" data-name="test3x3TorusNetwork2--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M1094.28,-1001.85C1100.51,-996.48 1106.95,-990.19 1112,-983.6 1170.45,-907.23 1154.84,-869.99 1207,-789.2 1210.94,-783.1 1215.79,-776.86 1220.39,-771.38" style=""/>
+<text text-anchor="middle" x="1175.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testGetNeuron -->
+<g id="edge131" class="edge" data-name="test3x3TorusNetwork2--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1062.53,-1001.36C1039.01,-956.14 982.5,-831.03 1020.33,-735.2 1067.8,-614.97 1111.3,-594.27 1219,-522.8 1233.65,-513.08 1251.34,-505.61 1267.48,-500.12" style=""/>
+<text text-anchor="middle" x="1030.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge132" class="edge" data-name="test3x3TorusNetwork2--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1055.83,-1001.44C1044.34,-988.15 1029.63,-968.7 1022,-948.8 954.22,-771.99 894.32,-668.72 1015,-522.8 1031.79,-502.5 1379.98,-440.2 1539.91,-412.51" style=""/>
+<text text-anchor="middle" x="956.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge133" class="edge" data-name="test3x3TorusNetwork2--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1049.15,-1001.66C1041.92,-996.09 1033.99,-989.74 1027,-983.6 883.89,-858 795.7,-858.11 722.33,-682.4 716.17,-667.64 718.73,-661.99 722.33,-646.4 742.1,-560.82 752.44,-535.99 809,-468.8 852.42,-417.22 868.2,-401.81 932,-380 1045.19,-341.31 1355.27,-395.85 1470,-362 1483.92,-357.89 1484.11,-349.41 1498,-345.2 1549.93,-329.47 1857,-319.19 2057.16,-314.06" style=""/>
+<text text-anchor="middle" x="732.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testIterator -->
+<g id="edge134" class="edge" data-name="test3x3TorusNetwork2--testIterator">
+
+<path fill="none" stroke="black" d="M987.21,-1009.64C958.01,-1004.47 925.71,-996.35 898,-983.6 817,-946.34 785.06,-936.93 740,-860 683.63,-763.76 685.56,-721.54 704.33,-611.6 718.74,-527.17 776,-291.8 854,-256.4 907.1,-232.3 1073.24,-224.73 1159.24,-222.41" style=""/>
+<text text-anchor="middle" x="714.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3TorusNetwork2&#45;&#45;testDataVisualization -->
+<g id="edge135" class="edge" data-name="test3x3TorusNetwork2--testDataVisualization">
+
+<path fill="none" stroke="black" d="M1100.78,-1002.03C1110.71,-996.25 1121.88,-989.7 1132,-983.6 1183.1,-952.84 1191.25,-936.45 1246,-912.8 1328.76,-877.05 1932.6,-726.01 2121.01,-679.25" style=""/>
+<text text-anchor="middle" x="1557.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge10" class="edge" data-name="test3x3CylinderNetwork--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M2177.97,-1272.71C2190.63,-1270.91 2203.67,-1269.25 2216,-1268 2293.48,-1260.15 2490.5,-1269.13 2566,-1250 2596.64,-1242.24 2725.52,-1185.98 2821,-1126.4 2875.49,-1092.4 2892.99,-1086.18 2935,-1037.6 3009.83,-951.08 3138.69,-670.62 3121,-557.6 3114.59,-516.65 3037.77,-230.17 3007,-202.4 2951.35,-152.19 2916.35,-177.06 2842,-167.6 2717.72,-151.78 2363.61,-140.4 2181.75,-135.41" style=""/>
+<text text-anchor="middle" x="3109.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge27" class="edge" data-name="test3x3CylinderNetwork--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M2177.97,-1272.66C2190.63,-1270.87 2203.67,-1269.22 2216,-1268 2520.88,-1237.84 2620.77,-1293.71 2897,-1161.2 3204.14,-1013.86 3335,-872.86 3335,-532.2 3335,-532.2 3335,-532.2 3335,-130.6 3335,-43.16 1999.65,-41.64 1597.35,-43.16" style=""/>
+<text text-anchor="middle" x="3338.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testGetFeaturesSize -->
+<g id="edge43" class="edge" data-name="test3x3CylinderNetwork--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M2101.86,-1267.72C2098.16,-1233.3 2092.44,-1154.01 2109,-1090.4 2141.76,-964.55 2308.84,-927.42 2230,-824 2198.56,-782.76 1830.78,-710.87 1780,-700.4 1723.3,-688.71 1706.98,-697.15 1651,-682.4 1608.94,-671.32 1600.77,-661.55 1560,-646.4 1505.49,-626.14 1442.02,-605 1400.09,-591.37" style=""/>
+<text text-anchor="middle" x="2248.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testAccessors -->
+<g id="edge58" class="edge" data-name="test3x3CylinderNetwork--testAccessors">
+
+<path fill="none" stroke="black" d="M2006.26,-1278.54C1976.82,-1273.5 1945.36,-1264.82 1919,-1250 1872.7,-1223.96 1867.53,-1206.01 1839,-1161.2 1820.64,-1132.37 1834.92,-1112.67 1809,-1090.4 1736.99,-1028.52 1675.25,-1098 1602,-1037.6 1574.26,-1014.72 1560.97,-972.9 1555.42,-949.27" style=""/>
+<text text-anchor="middle" x="1836.33" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;test3x3TorusNetwork -->
+<g id="edge118" class="edge" data-name="test3x3CylinderNetwork--test3x3TorusNetwork">
+
+<path fill="none" stroke="black" d="M2013.52,-1276.12C1960.4,-1270.22 1892.1,-1261.45 1832,-1250 1706.33,-1226.06 1677.13,-1210.15 1553,-1179.2 1473.91,-1159.48 1382.36,-1137.15 1324.81,-1123.17" style=""/>
+<text text-anchor="middle" x="1693.33" y="-1193" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge127" class="edge" data-name="test3x3CylinderNetwork--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M2013.04,-1276.31C1971.61,-1270.97 1922.26,-1262.65 1879,-1250 1767.15,-1217.3 1749.81,-1180.48 1639,-1144.4 1466.55,-1088.26 1256.29,-1049.86 1146.65,-1032.01" style=""/>
+<text text-anchor="middle" x="1693.33" y="-1148.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;test3x3CylinderNetwork2 -->
+<g id="edge136" class="edge" data-name="test3x3CylinderNetwork--test3x3CylinderNetwork2">
+
+<path fill="none" stroke="black" d="M2179.16,-1272.9C2212.94,-1266.92 2253.19,-1259.04 2289,-1250 2329.45,-1239.79 2374.6,-1225.18 2407.1,-1214.08" style=""/>
+<text text-anchor="middle" x="2356.33" y="-1237.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge137" class="edge" data-name="test3x3CylinderNetwork--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M2083.51,-1267.89C2078.58,-1262.67 2073.91,-1256.57 2071,-1250 2010.38,-1112.93 2046.04,-1059.85 2075,-912.8 2078.57,-894.69 2084.3,-874.36 2088.54,-860.33" style=""/>
+<text text-anchor="middle" x="2052.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge138" class="edge" data-name="test3x3CylinderNetwork--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M2081.43,-1268.28C2074.35,-1262.72 2066.65,-1256.32 2060,-1250 2025.68,-1217.41 1960.03,-1113.98 1919,-1090.4 1905.95,-1082.9 1667.55,-1042.53 1653.33,-1037.6 1571.17,-1009.12 1553.63,-993.42 1479,-948.8 1419.57,-913.27 1405.05,-903.27 1351,-860 1341.1,-852.07 1284.3,-799.27 1254.4,-771.39" style=""/>
+<text text-anchor="middle" x="1662.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testGetNeuron -->
+<g id="edge139" class="edge" data-name="test3x3CylinderNetwork--testGetNeuron">
+
+<path fill="none" stroke="black" d="M2107.27,-1267.58C2118.12,-1211.68 2154.57,-1038.31 2196,-1001.6 2227.18,-973.97 2252.83,-1005.95 2288,-983.6 2329.28,-957.37 2337.8,-941.29 2353,-894.8 2388.75,-785.43 2380.89,-701.73 2280,-646.4 2239.13,-623.99 2115.46,-642.42 2071,-628.4 2056.79,-623.92 2055.98,-616.74 2042,-611.6 2000.03,-596.16 1985.26,-608.23 1943,-593.6 1910.69,-582.41 1907.82,-567.19 1875,-557.6 1780.83,-530.09 1751.26,-558.54 1655,-539.6 1630.75,-534.83 1626.15,-528.05 1602,-522.8 1560.29,-513.74 1447.55,-501.33 1376.14,-493.98" style=""/>
+<text text-anchor="middle" x="2367.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge140" class="edge" data-name="test3x3CylinderNetwork--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M2180.16,-1273.08C2192.15,-1271.31 2204.4,-1269.56 2216,-1268 2374.53,-1246.71 2432.61,-1293.65 2572,-1215.2 2599.73,-1199.6 2604.71,-1189.63 2619,-1161.2 2710.97,-978.16 2714.72,-886.45 2629,-700.4 2616.5,-673.27 2612.43,-664.93 2589,-646.4 2573.07,-633.8 2565.3,-637.2 2547,-628.4 2517.47,-614.2 2509.88,-610.81 2482,-593.6 2458.39,-579.02 2455.83,-569.97 2431,-557.6 2362.08,-523.27 2338.94,-529.46 2266,-504.8 2220.86,-489.54 2209.9,-484.77 2165,-468.8 2121.45,-453.31 2112.21,-443.62 2067,-434 1960.36,-411.32 1836.64,-402.97 1746.27,-400.06" style=""/>
+<text text-anchor="middle" x="2693.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge141" class="edge" data-name="test3x3CylinderNetwork--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M2178.28,-1272.73C2190.84,-1270.94 2203.77,-1269.28 2216,-1268 2354.14,-1253.56 2393.2,-1283.49 2528,-1250 2564.05,-1241.04 2574.76,-1238.11 2604,-1215.2 2774.95,-1081.27 2782.84,-986.9 2808,-771.2 2809.85,-755.31 2813.97,-750.04 2808,-735.2 2775.42,-654.25 2731.8,-657.14 2672,-593.6 2583.49,-499.56 2570.65,-466.77 2475,-380 2456.01,-362.78 2452.49,-355.46 2429,-345.2 2405.84,-335.09 2379.94,-327.89 2354.71,-322.78" style=""/>
+<text text-anchor="middle" x="2814.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testIterator -->
+<g id="edge142" class="edge" data-name="test3x3CylinderNetwork--testIterator">
+
+<path fill="none" stroke="black" d="M2129.21,-1268.21C2137.74,-1262.47 2147.31,-1256 2156,-1250 2171.43,-1239.35 2696.03,-875.21 2707,-860 2842.77,-671.82 2805.31,-484.86 2620,-345.2 2547.16,-290.3 2512.16,-305.02 2422,-291.2 2214.06,-259.32 2158.99,-285.96 1949,-273.2 1859.52,-267.76 1837.42,-262.72 1748,-256.4 1609.89,-246.63 1575.15,-247.62 1437,-238.4 1377.2,-234.41 1308.51,-229.12 1262.92,-225.5" style=""/>
+<text text-anchor="middle" x="2780.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork&#45;&#45;testDataVisualization -->
+<g id="edge143" class="edge" data-name="test3x3CylinderNetwork--testDataVisualization">
+
+<path fill="none" stroke="black" d="M2122.39,-1267.83C2127.53,-1262.45 2132.84,-1256.26 2137,-1250 2241.04,-1093.37 2265.91,-1044.73 2301,-860 2315.11,-785.7 2294.16,-755.16 2242,-700.4 2234.66,-692.7 2225.25,-686.31 2215.88,-681.2" style=""/>
+<text text-anchor="middle" x="2286.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge11" class="edge" data-name="test3x3CylinderNetwork2--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M2538.45,-1185.54C2562.23,-1180.34 2587.41,-1172.64 2609,-1161.2 2628.95,-1150.63 2630.36,-1142.68 2646,-1126.4 2650.52,-1121.69 2796.18,-954.1 2800,-948.8 2869.9,-851.76 2893.98,-828.79 2937,-717.2 2981.68,-601.31 2993,-567.61 2993,-443.4 2993,-443.4 2993,-443.4 2993,-219.4 2993,-153.72 2767.24,-175.19 2702,-167.6 2520.95,-146.54 2309.16,-138.08 2182.77,-134.73" style=""/>
+<text text-anchor="middle" x="2972.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge28" class="edge" data-name="test3x3CylinderNetwork2--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M2543.77,-1186.76C2573.14,-1181.58 2605.23,-1173.57 2633,-1161.2 2752.59,-1107.93 2770.44,-1070.9 2868,-983.6 2924.37,-933.16 2942.39,-922.5 2985,-860 3003.42,-832.98 3227.89,-359.11 3235,-327.2 3250.53,-257.53 3265.99,-219.52 3217,-167.6 3108.64,-52.75 3030.38,-91.57 2873,-78.8 2626.11,-58.77 1881.39,-48.35 1596.51,-45.02" style=""/>
+<text text-anchor="middle" x="3115.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testGetFeaturesSize -->
+<g id="edge44" class="edge" data-name="test3x3CylinderNetwork2--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M2445.37,-1179.04C2417.81,-1107.87 2313.28,-838.96 2301,-824 2255.44,-768.48 2231.98,-763.56 2166,-735.2 1915.28,-627.42 1589.44,-592.26 1438.09,-581.3" style=""/>
+<text text-anchor="middle" x="2341.33" y="-882.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testAccessors -->
+<g id="edge59" class="edge" data-name="test3x3CylinderNetwork2--testAccessors">
+
+<path fill="none" stroke="black" d="M2361.95,-1186.32C2316.66,-1180.53 2261.11,-1172.17 2212,-1161.2 2145.7,-1146.39 1688.18,-1013.12 1627,-983.6 1607.05,-973.97 1586.49,-959.38 1571.95,-948.14" style=""/>
+<text text-anchor="middle" x="1902.33" y="-1059.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;test3x3TorusNetwork -->
+<g id="edge119" class="edge" data-name="test3x3CylinderNetwork2--test3x3TorusNetwork">
+
+<path fill="none" stroke="black" d="M2354.57,-1188.25C2225.33,-1177.79 1990.08,-1159.01 1789,-1144.4 1637.33,-1133.38 1460.72,-1121.77 1356.98,-1115.08" style=""/>
+<text text-anchor="middle" x="2016.33" y="-1148.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;test3x3TorusNetwork2 -->
+<g id="edge128" class="edge" data-name="test3x3CylinderNetwork2--test3x3TorusNetwork2">
+
+<path fill="none" stroke="black" d="M2369.25,-1184.87C2284.26,-1173.51 2148.08,-1156.07 2030,-1144.4 1923.7,-1133.89 1895.89,-1142.74 1790.33,-1126.4 1655.23,-1105.48 1626.01,-1077.08 1491,-1055.6 1381.24,-1038.14 1253.84,-1029.06 1168.6,-1024.58" style=""/>
+<text text-anchor="middle" x="1799.33" y="-1104.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testConcentricNeighbourhood -->
+<g id="edge144" class="edge" data-name="test3x3CylinderNetwork2--testConcentricNeighbourhood">
+
+<path fill="none" stroke="black" d="M2384.76,-1182.54C2368.34,-1177.41 2351.37,-1170.49 2337,-1161.2 2212.63,-1080.87 2127,-913.93 2101.74,-860.12" style=""/>
+<text text-anchor="middle" x="2217.33" y="-1015.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge145" class="edge" data-name="test3x3CylinderNetwork2--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M2385.48,-1182.39C2361.15,-1176.7 2333.58,-1169.48 2309,-1161.2 2197.41,-1123.6 2176.26,-1096.95 2066,-1055.6 2041.26,-1046.32 1857.63,-1002.66 1839.33,-983.6 1816.74,-960.07 1844.49,-934.35 1820,-912.8 1788.16,-884.79 1478.71,-881.23 1442,-860 1424.45,-849.85 1429.92,-836.54 1414,-824 1384.5,-800.76 1371.89,-803.1 1337,-789.2 1320.36,-782.57 1301.92,-775.97 1285.39,-770.31" style=""/>
+<text text-anchor="middle" x="1848.33" y="-971" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testGetNeuron -->
+<g id="edge146" class="edge" data-name="test3x3CylinderNetwork2--testGetNeuron">
+
+<path fill="none" stroke="black" d="M2454.69,-1178.71C2467.19,-1096.93 2518.6,-755.27 2508,-735.2 2495.18,-710.94 2480.83,-714.01 2457,-700.4 2407.97,-672.4 2395.44,-664.64 2342,-646.4 2331.25,-642.73 1954.19,-559.51 1943,-557.6 1814.6,-535.69 1781.45,-537.24 1652,-522.8 1555.85,-512.07 1444.17,-500.73 1376.33,-493.96" style=""/>
+<text text-anchor="middle" x="2512.33" y="-837.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge147" class="edge" data-name="test3x3CylinderNetwork2--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M2462.33,-1178.81C2495.05,-1122.46 2595.76,-938.82 2622,-771.2 2631.77,-708.79 2605.41,-683.1 2554,-646.4 2523.87,-624.89 2430.58,-606.81 2396,-593.6 2302.86,-558.04 2281.54,-544.29 2190,-504.8 2153.55,-489.08 2064.49,-443.69 2026,-434 1934.36,-410.93 1827.85,-402.39 1746.78,-399.51" style=""/>
+<text text-anchor="middle" x="2627.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge148" class="edge" data-name="test3x3CylinderNetwork2--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M2526.13,-1183.48C2540.56,-1178.37 2554.69,-1171.22 2566,-1161.2 2604.45,-1127.13 2590.67,-1101.86 2613,-1055.6 2655.62,-967.3 2691.66,-955.23 2715,-860 2728.32,-805.63 2717.91,-787.52 2698,-735.2 2644.3,-594.08 2446.23,-370.41 2405,-345.2 2388.79,-335.29 2370.29,-328.13 2351.55,-322.96" style=""/>
+<text text-anchor="middle" x="2720.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testIterator -->
+<g id="edge149" class="edge" data-name="test3x3CylinderNetwork2--testIterator">
+
+<path fill="none" stroke="black" d="M2534.3,-1184.85C2552.77,-1179.68 2571.47,-1172.15 2587,-1161.2 2625.98,-1133.72 2812.17,-850.99 2828,-806 2869.7,-687.52 2859.84,-348.54 2857,-345.2 2760.46,-231.63 2674.23,-306.83 2526,-291.2 2044.1,-240.37 1920.64,-268.39 1437,-238.4 1377.18,-234.69 1308.49,-229.34 1262.91,-225.64" style=""/>
+<text text-anchor="middle" x="2857.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- test3x3CylinderNetwork2&#45;&#45;testDataVisualization -->
+<g id="edge150" class="edge" data-name="test3x3CylinderNetwork2--testDataVisualization">
+
+<path fill="none" stroke="black" d="M2397.55,-1181.09C2388.61,-1176.19 2380.49,-1169.72 2375,-1161.2 2357.96,-1134.74 2373.16,-1121.81 2375,-1090.4 2380.12,-1003.02 2392.88,-982.18 2398,-894.8 2399.92,-862.03 2393.26,-852.51 2377,-824 2342.42,-763.34 2336.98,-740.77 2280,-700.4 2266.82,-691.06 2250.96,-684.06 2235.67,-678.87" style=""/>
+<text text-anchor="middle" x="2405.33" y="-926.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge12" class="edge" data-name="testConcentricNeighbourhood--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M2150.54,-825.56C2187.68,-813.93 2236.34,-795.77 2275,-771.2 2336.97,-731.81 2788,-428.03 2788,-354.6 2788,-354.6 2788,-354.6 2788,-219.4 2788,-159.14 2383.64,-140.43 2182.24,-134.86" style=""/>
+<text text-anchor="middle" x="2697.33" y="-482.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge29" class="edge" data-name="testConcentricNeighbourhood--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M2193.33,-830.4C2411.92,-801.16 2933.09,-697.8 3159,-362 3208.14,-288.96 3255.6,-233.3 3197,-167.6 3090.69,-48.41 1962.5,-42.01 1597.34,-43.09" style=""/>
+<text text-anchor="middle" x="3111.33" y="-438.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testGetFeaturesSize -->
+<g id="edge45" class="edge" data-name="testConcentricNeighbourhood--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1997.89,-829.82C1963.12,-824.42 1923.86,-816.71 1889,-806 1780.71,-772.72 1763.69,-738.5 1657,-700.4 1627.56,-689.89 1618.46,-692.85 1589,-682.4 1549.68,-668.45 1442.93,-618.67 1387.86,-592.68" style=""/>
+<text text-anchor="middle" x="1707.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testConcentricNeighbourhood2 -->
+<g id="edge151" class="edge" data-name="testConcentricNeighbourhood--testConcentricNeighbourhood2">
+
+<path fill="none" stroke="black" d="M1989.58,-831.36C1850.76,-818.41 1597.81,-794.34 1382,-771.2 1366.14,-769.5 1349.32,-767.62 1332.96,-765.74" style=""/>
+<text text-anchor="middle" x="1722.33" y="-793.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testGetNeuron -->
+<g id="edge152" class="edge" data-name="testConcentricNeighbourhood--testGetNeuron">
+
+<path fill="none" stroke="black" d="M2004.76,-828.76C1980.2,-823.55 1954.01,-816.23 1931,-806 1820.3,-756.76 1816.23,-704.66 1710,-646.4 1696.06,-638.75 1589.54,-603.38 1577,-593.6 1546.42,-569.75 1558.96,-543.24 1526,-522.8 1501.79,-507.78 1430.99,-498.23 1377.82,-492.96" style=""/>
+<text text-anchor="middle" x="1773.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge153" class="edge" data-name="testConcentricNeighbourhood--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M2043.93,-825.01C2001.93,-810.65 1946.39,-789.13 1931,-771.2 1882.68,-714.89 1917.69,-676.65 1882,-611.6 1852.01,-556.93 1826.17,-556.3 1791,-504.8 1770.86,-475.31 1781.06,-456.09 1753,-434 1739.87,-423.66 1723.99,-416.36 1707.83,-411.21" style=""/>
+<text text-anchor="middle" x="1898.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge154" class="edge" data-name="testConcentricNeighbourhood--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M2134.47,-824.49C2219.93,-786.63 2411,-684.9 2411,-532.2 2411,-532.2 2411,-532.2 2411,-397 2411,-357.63 2375.5,-336.11 2336.13,-324.35" style=""/>
+<text text-anchor="middle" x="2417.33" y="-571.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testIterator -->
+<g id="edge155" class="edge" data-name="testConcentricNeighbourhood--testIterator">
+
+<path fill="none" stroke="black" d="M2086.88,-823.76C2057.59,-755.16 1939.29,-499.55 1756,-380 1682.51,-332.07 1465.76,-279.07 1381,-256.4 1339.9,-245.41 1292.4,-235.84 1258.24,-229.5" style=""/>
+<text text-anchor="middle" x="1930.33" y="-527" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood&#45;&#45;testDataVisualization -->
+<g id="edge156" class="edge" data-name="testConcentricNeighbourhood--testDataVisualization">
+
+<path fill="none" stroke="black" d="M2102.11,-823.84C2117.98,-790.27 2152.96,-716.25 2168.86,-682.63" style=""/>
+<text text-anchor="middle" x="2152.33" y="-749" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge13" class="edge" data-name="testConcentricNeighbourhood2--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1334.93,-740.97C1399.91,-733.18 1475.49,-723.17 1490,-717.2 1599.41,-672.23 1599.79,-615.4 1703,-557.6 1758.49,-526.53 1779.13,-533.28 1836,-504.8 1882.63,-481.45 1936,-495.55 1936,-443.4 1936,-443.4 1936,-443.4 1936,-219.4 1936,-194.03 1940.94,-184.35 1960,-167.6 1971.08,-157.86 1984.86,-150.83 1998.91,-145.75" style=""/>
+<text text-anchor="middle" x="1945.33" y="-438.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge30" class="edge" data-name="testConcentricNeighbourhood2--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1125.64,-743C1080.33,-737.69 1027.66,-729.53 981,-717.2 961.56,-712.06 958.05,-706.82 939,-700.4 924.75,-695.6 689.85,-637.66 678,-628.4 536.25,-517.6 498,-445.72 498,-265.8 498,-265.8 498,-265.8 498,-130.6 498,-44.79 599.25,-92.27 684,-78.8 813.06,-58.28 1184.01,-49.02 1371.97,-45.55" style=""/>
+<text text-anchor="middle" x="523.33" y="-393.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testGetFeaturesSize -->
+<g id="edge46" class="edge" data-name="testConcentricNeighbourhood2--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M1249.44,-734.99C1260.19,-721.04 1275.48,-700.75 1288,-682.4 1308.87,-651.83 1331.31,-614.89 1343.91,-593.73" style=""/>
+<text text-anchor="middle" x="1320.33" y="-660.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testGetNeuron -->
+<g id="edge157" class="edge" data-name="testConcentricNeighbourhood2--testGetNeuron">
+
+<path fill="none" stroke="black" d="M1224.71,-734.92C1221.51,-729.43 1218.29,-723.22 1216,-717.2 1190.77,-650.81 1169.72,-617.42 1208,-557.6 1224.39,-531.99 1253.91,-513.71 1277.65,-502.29" style=""/>
+<text text-anchor="middle" x="1197.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge158" class="edge" data-name="testConcentricNeighbourhood2--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1230.37,-734.96C1219.61,-698.52 1200.41,-612.51 1238.33,-557.6 1262.39,-522.76 1286.9,-536.36 1327,-522.8 1354.59,-513.47 1362.56,-514.56 1390,-504.8 1447.41,-484.39 1460.76,-476.5 1516,-450.8 1539.96,-439.66 1566.59,-426.23 1586.77,-415.84" style=""/>
+<text text-anchor="middle" x="1248.33" y="-571.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge159" class="edge" data-name="testConcentricNeighbourhood2--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1218.93,-735.03C1207.21,-721.88 1192.76,-702.62 1187,-682.4 1171.8,-629.06 1175.4,-611.84 1187,-557.6 1212.35,-439.06 1280,-421.22 1394,-380 1436.88,-364.5 1451.77,-376.5 1495,-362 1510.6,-356.77 1512.1,-349.44 1528,-345.2 1622.97,-319.91 1875.92,-312.57 2051.21,-310.62" style=""/>
+<text text-anchor="middle" x="1206.33" y="-527" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testIterator -->
+<g id="edge160" class="edge" data-name="testConcentricNeighbourhood2--testIterator">
+
+<path fill="none" stroke="black" d="M1134.85,-741.31C1014.89,-722.13 831,-670.23 831,-532.2 831,-532.2 831,-532.2 831,-308.2 831,-241.63 1054.91,-226.12 1159.42,-222.5" style=""/>
+<text text-anchor="middle" x="840.33" y="-482.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testConcentricNeighbourhood2&#45;&#45;testDataVisualization -->
+<g id="edge161" class="edge" data-name="testConcentricNeighbourhood2--testDataVisualization">
+
+<path fill="none" stroke="black" d="M1332.63,-740.58C1387.1,-733.93 1456.37,-725.33 1518,-717.2 1571.54,-710.14 1584.61,-705.89 1638.33,-700.4 1795.19,-684.38 1978.54,-674.3 2085.81,-669.27" style=""/>
+<text text-anchor="middle" x="1647.33" y="-704.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuron&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge14" class="edge" data-name="testGetNeuron--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1312.4,-468.44C1309.94,-430.61 1309.81,-340.19 1358.33,-291.2 1381.57,-267.73 1609.92,-210.26 1642,-202.4 1727.08,-181.54 1749.56,-181.79 1836,-167.6 1886.57,-159.3 1943.41,-150.81 1988.52,-144.27" style=""/>
+<text text-anchor="middle" x="1368.33" y="-305" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuron&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge31" class="edge" data-name="testGetNeuron--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1247.94,-482.93C1074.31,-472.93 627.19,-430.08 757.33,-256.4 835.47,-152.13 1228.38,-81.86 1401.67,-55.46" style=""/>
+<text text-anchor="middle" x="767.33" y="-260.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuron&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge162" class="edge" data-name="testGetNeuron--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M1359,-472.99C1413.52,-457.48 1505.33,-431.35 1563.99,-414.65" style=""/>
+<text text-anchor="middle" x="1502.33" y="-438.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuron&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge163" class="edge" data-name="testGetNeuron--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1331.05,-469C1357.07,-444.55 1409.38,-399.91 1463.33,-380 1569.25,-340.92 1868.74,-323.05 2061.11,-315.39" style=""/>
+<text text-anchor="middle" x="1472.33" y="-393.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuron&#45;&#45;testIterator -->
+<g id="edge164" class="edge" data-name="testGetNeuron--testIterator">
+
+<path fill="none" stroke="black" d="M1286.82,-469.91C1279.79,-464.63 1272.84,-458.19 1268,-450.8 1222.74,-381.7 1214.03,-279.26 1212.38,-238.77" style=""/>
+<text text-anchor="middle" x="1239.33" y="-349.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirection&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge15" class="edge" data-name="testGetNeuronAlongDirection--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1636.03,-379.85C1679.52,-337.08 1799.89,-224.99 1922,-167.6 1943.76,-157.37 1968.76,-150 1991.99,-144.74" style=""/>
+<text text-anchor="middle" x="1785.33" y="-260.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirection&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge32" class="edge" data-name="testGetNeuronAlongDirection--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1538.06,-383.66C1498.38,-372.01 1459,-350.33 1459,-310.2 1459,-310.2 1459,-310.2 1459,-130.6 1459,-105.67 1468.64,-78.22 1475.95,-61" style=""/>
+<text text-anchor="middle" x="1468.33" y="-216.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirection&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge166" class="edge" data-name="testGetNeuronAlongDirection--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M1706.83,-384.56C1818.97,-368.68 2012.61,-341.26 2130.82,-324.53" style=""/>
+<text text-anchor="middle" x="1989.33" y="-349.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirection&#45;&#45;testIterator -->
+<g id="edge167" class="edge" data-name="testGetNeuronAlongDirection--testIterator">
+
+<path fill="none" stroke="black" d="M1524.06,-385.63C1471.87,-378.63 1415.74,-369.58 1406,-362 1365.6,-330.56 1399.28,-289.23 1360,-256.4 1333.56,-234.31 1295.62,-225.64 1264.77,-222.46" style=""/>
+<text text-anchor="middle" x="1394.33" y="-305" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirectionWrappedMap&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge16" class="edge" data-name="testGetNeuronAlongDirectionWrappedMap--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M2216.27,-291.04C2185.49,-257.47 2117.63,-183.45 2086.79,-149.83" style=""/>
+<text text-anchor="middle" x="2176.33" y="-216.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirectionWrappedMap&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge33" class="edge" data-name="testGetNeuronAlongDirectionWrappedMap--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M2184.36,-291.36C2048.56,-243.36 1660.84,-106.31 1528.73,-59.61" style=""/>
+<text text-anchor="middle" x="1884.33" y="-171.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testGetNeuronAlongDirectionWrappedMap&#45;&#45;testIterator -->
+<g id="edge169" class="edge" data-name="testGetNeuronAlongDirectionWrappedMap--testIterator">
+
+<path fill="none" stroke="black" d="M2055.36,-304.98C1944.33,-301.04 1798.36,-292.33 1670.33,-273.2 1638.55,-268.45 1631.72,-261.59 1600,-256.4 1536.59,-246.02 1353.58,-231.77 1263.43,-225.11" style=""/>
+<text text-anchor="middle" x="1679.33" y="-260.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testIterator&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge17" class="edge" data-name="testIterator--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M1262.63,-214.94C1319.99,-209.49 1416.15,-199.14 1498,-184.4 1529.63,-178.71 1536.56,-172.47 1568.33,-167.6 1702.15,-147.1 1857.86,-138.6 1960.1,-135.07" style=""/>
+<text text-anchor="middle" x="1577.33" y="-171.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testIterator&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge34" class="edge" data-name="testIterator--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M1235.66,-204.12C1286.33,-171.41 1404.98,-94.81 1457.82,-60.7" style=""/>
+<text text-anchor="middle" x="1385.33" y="-127.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testMinimalNetworkSize1 -->
+<g id="edge18" class="edge" data-name="testDataVisualization--testMinimalNetworkSize1">
+
+<path fill="none" stroke="black" d="M2238.76,-650.41C2253.36,-645.28 2268.11,-638.18 2280,-628.4 2405.58,-525.1 2513.95,-425.32 2422,-291.2 2360.28,-201.16 2234.54,-161.46 2151.53,-144.51" style=""/>
+<text text-anchor="middle" x="2465.33" y="-393.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testMinimalNetworkSize2 -->
+<g id="edge35" class="edge" data-name="testDataVisualization--testMinimalNetworkSize2">
+
+<path fill="none" stroke="black" d="M2270.2,-661.23C2418.76,-651.9 2702.63,-608.48 2802,-416 2852.65,-317.9 2876.32,-249.23 2802,-167.6 2721.42,-79.1 1899.28,-52.65 1595.78,-45.87" style=""/>
+<text text-anchor="middle" x="2843.33" y="-349.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testGetFeaturesSize -->
+<g id="edge51" class="edge" data-name="testDataVisualization--testGetFeaturesSize">
+
+<path fill="none" stroke="black" d="M2092.32,-656.18C2006.76,-648.53 1884.26,-636.46 1863.33,-628.4 1851.41,-623.81 1852.02,-615.94 1840,-611.6 1784.89,-591.72 1635.43,-597.83 1577,-593.6 1529.95,-590.2 1477.33,-586.19 1435.02,-582.93" style=""/>
+<text text-anchor="middle" x="1872.33" y="-615.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testGetNeuron -->
+<g id="edge165" class="edge" data-name="testDataVisualization--testGetNeuron">
+
+<path fill="none" stroke="black" d="M2111.73,-651.1C2078.26,-644.63 2036.89,-636.41 2000,-628.4 1975.12,-623 1579.01,-527.58 1554,-522.8 1493.2,-511.19 1423.09,-501.37 1374.41,-495.12" style=""/>
+<text text-anchor="middle" x="1861.33" y="-571.4" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testGetNeuronAlongDirection -->
+<g id="edge168" class="edge" data-name="testDataVisualization--testGetNeuronAlongDirection">
+
+<path fill="none" stroke="black" d="M2131.72,-648.2C2119.23,-642.94 2106.08,-636.32 2095,-628.4 2043.65,-591.68 2051.68,-559.05 2000,-522.8 1914.01,-462.48 1881.37,-464.94 1781,-434 1753.64,-425.57 1723.08,-418.4 1695.93,-412.79" style=""/>
+<text text-anchor="middle" x="2029.33" y="-527" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testGetNeuronAlongDirectionWrappedMap -->
+<g id="edge170" class="edge" data-name="testDataVisualization--testGetNeuronAlongDirectionWrappedMap">
+
+<path fill="none" stroke="black" d="M2222.47,-648.18C2253.12,-634.73 2288,-611.7 2288,-576.6 2288,-576.6 2288,-576.6 2288,-397 2288,-369.38 2267.73,-343.58 2251.59,-327.41" style=""/>
+<text text-anchor="middle" x="2297.33" y="-482.6" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+<!-- testDataVisualization&#45;&#45;testIterator -->
+<g id="edge171" class="edge" data-name="testDataVisualization--testIterator">
+
+<path fill="none" stroke="black" d="M2170.01,-646.18C2152.17,-604.21 2100.99,-495.58 2026,-434 2009.73,-420.64 1695.29,-296.8 1675,-291.2 1576.61,-264.05 1548.93,-271.62 1448,-256.4 1382.88,-246.58 1307.61,-235.46 1259.92,-228.44" style=""/>
+<text text-anchor="middle" x="2053.33" y="-438.2" font-family="Times,serif" font-size="14.00" style="">init</text>
+</g>
+</g>
+</svg>

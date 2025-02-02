@@ -8,7 +8,7 @@ ComplexPerson,showAllBelongings,2
 ComplexPerson,updateDetails,3
 Person,getName,1
 Person,isAdult,1
-PersonMultiVar,getKnowAge,1
+PersonMultiVar,getKnownAge,1
 PersonMultiVar,getName,1
 PersonMultiVar,isAdult,1
 big.UntestableCode,complexMethod,37

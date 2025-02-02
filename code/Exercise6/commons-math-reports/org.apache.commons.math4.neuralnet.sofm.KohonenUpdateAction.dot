@@ -1,0 +1,4 @@
+strict graph {
+  label="KohonenUpdateAction"
+  "getNumberOfCalls" -- "update" [label="numberOfCalls"];
+}
