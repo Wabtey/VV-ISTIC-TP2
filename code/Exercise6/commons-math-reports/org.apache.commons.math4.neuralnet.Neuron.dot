@@ -1,0 +1,12 @@
+strict graph {
+  label="Neuron"
+  "compareAndSetFeatures" -- "copy" [label="numberOfSuccessfulUpdates, numberOfAttemptedUpdates"];
+  "copy" -- "getNumberOfAttemptedUpdates" [label="numberOfAttemptedUpdates"];
+  "copy" -- "getNumberOfSuccessfulUpdates" [label="numberOfSuccessfulUpdates"];
+  "compareAndSetFeatures" -- "getSize" [label="size"];
+  "containSameValues" -- "getSize" [label="size"];
+  "compareAndSetFeatures" -- "getFeatures" [label="features"];
+  "compareAndSetFeatures" -- "getNumberOfAttemptedUpdates" [label="numberOfAttemptedUpdates"];
+  "compareAndSetFeatures" -- "getNumberOfSuccessfulUpdates" [label="numberOfSuccessfulUpdates"];
+  "compareAndSetFeatures" -- "containSameValues" [label="size"];
+}

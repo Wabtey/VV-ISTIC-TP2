@@ -1,0 +1,11 @@
+strict graph {
+  label="ComplexPerson"
+  "getName" -- "printDetails" [label="name"];
+  "getName" -- "updateDetails" [label="name"];
+  "getName" -- "showAllBelongings" [label="name"];
+  "isAdult" -- "printDetails" [label="age"];
+  "isAdult" -- "updateDetails" [label="age"];
+  "printDetails" -- "updateDetails" [label="name, age"];
+  "printDetails" -- "showAllBelongings" [label="name"];
+  "showAllBelongings" -- "updateDetails" [label="name"];
+}
