@@ -1,10 +1,12 @@
-// CC > 50
+package big;
+
+// CC > 50, TCC = 0 no instance variable / only one method.
 public class UntestableCode {
 
     /**
      * A "Brain Method" was detected. Refactor it to reduce at least one of the
-     * following metrics: LOC from 74 to 64, Complexity from 37 to 14, Nesting Level
-     * from 36 to 2, Number of Variables from 18 to 6.
+     * following metrics: LOC from 74 to 64, Complexity from 37 to 14, Nesting
+     * Level from 36 to 2, Number of Variables from 18 to 6.
      * 
      * CC = 37
      */
@@ -45,7 +47,9 @@ public class UntestableCode {
                                                                                                                                             if (y % 18 == 0) {
                                                                                                                                                 for (int z = 0; z < 10; z++) {
                                                                                                                                                     if (z % 19 == 0) {
-                                                                                                                                                        // Add more nested loops or conditions if needed
+                                                                                                                                                        System.out
+                                                                                                                                                                .println(
+                                                                                                                                                                        "thanks LLM <3");
                                                                                                                                                     }
                                                                                                                                                 }
                                                                                                                                             }

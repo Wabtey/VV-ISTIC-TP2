@@ -1,0 +1,4 @@
+strict graph {
+  label="Polygon"
+  "draw" -- "mutate" [label="data"];
+}

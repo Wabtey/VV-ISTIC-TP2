@@ -1,9 +1,20 @@
+/**
+ * @formatter:off
+ * Total possible method pairs: (7 parmi 2) = 21.
+ * Connected pairs = 8.
+ * TCC = 8/21 ~= 38.09%
+ */
 public class ComplexPerson {
     private int age;
     private String name;
+    // FIXME: should not be counted as instance variable as it is `static`
     public static final List<String> belongings;
 
-    // CC = 1
+    /**
+     * CC = 1.
+     * `name` shared with `printDetails`, `updateDetails` and `showAllBelongings`
+     * @return name
+     */
     public String getName() {
         return name;
     }
@@ -40,6 +51,7 @@ public class ComplexPerson {
     }
 
     // CC = 1
+    // For TCC, no direct instance variable access
     public boolean canVote() {
         return isAdult();
     }
@@ -61,8 +73,10 @@ public class ComplexPerson {
             System.out.println("elo");
         } else {
             for (String belonging : belongings) {
-                if (belonging.equals("Plastic cup"))
+                if (belonging.equals("Plastic cup")) {
                     cupCount++;
+                    System.out.println("* " + belonging);
+                }
             }
         }
         return cupCount;

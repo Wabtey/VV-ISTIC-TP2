@@ -1,0 +1,277 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1210pt" height="602pt" viewBox="0.00 0.00 1210.44 601.60">
+<g id="graph0" class="graph" transform="translate(4,597.5999755859375) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-597.6 1206.44,-597.6 1206.44,4 -4,4" style=""/>
+<text text-anchor="middle" x="601.22" y="-8.2" font-family="Times,serif" font-size="14.00" style="">Network</text>
+<!-- copy -->
+<g id="node1" class="node" pointer-events="visible" data-name="copy">
+
+<ellipse fill="none" stroke="black" cx="516" cy="-486.8" rx="29.62" ry="18" style=""/>
+<text text-anchor="middle" x="516" y="-482.6" font-family="Times,serif" font-size="14.00" style="">copy</text>
+</g>
+<!-- from -->
+<g id="node2" class="node" pointer-events="visible" data-name="from">
+
+<ellipse fill="none" stroke="black" cx="450" cy="-309.2" rx="29.62" ry="18" style=""/>
+<text text-anchor="middle" x="450" y="-305" font-family="Times,serif" font-size="14.00" style="">from</text>
+</g>
+<!-- copy&#45;&#45;from -->
+<g id="edge1" class="edge" data-name="copy--from">
+
+<path fill="none" stroke="black" d="M497.81,-472.33C482.4,-459.72 461.38,-439.35 452.04,-416 440.3,-386.66 443.42,-348.99 446.72,-327.42" style=""/>
+<text text-anchor="middle" x="484.48" y="-393.8" font-family="Times,serif" font-size="14.00" style="">featureSize</text>
+</g>
+<!-- createNeuron -->
+<g id="node3" class="node" pointer-events="visible" data-name="createNeuron">
+
+<ellipse fill="none" stroke="black" cx="633" cy="-398" rx="63.08" ry="18" style=""/>
+<text text-anchor="middle" x="633" y="-393.8" font-family="Times,serif" font-size="14.00" style="">createNeuron</text>
+</g>
+<!-- copy&#45;&#45;createNeuron -->
+<g id="edge6" class="edge" data-name="copy--createNeuron">
+
+<path fill="none" stroke="black" d="M534.28,-472.24C555.1,-456.79 589.11,-431.56 611.27,-415.12" style=""/>
+<text text-anchor="middle" x="699.85" y="-438.2" font-family="Times,serif" font-size="14.00" style="">featureSize, nextId, neuronMap, linkMap</text>
+</g>
+<!-- getFeaturesSize -->
+<g id="node4" class="node" pointer-events="visible" data-name="getFeaturesSize">
+
+<ellipse fill="none" stroke="black" cx="450" cy="-220.4" rx="72.35" ry="18" style=""/>
+<text text-anchor="middle" x="450" y="-216.2" font-family="Times,serif" font-size="14.00" style="">getFeaturesSize</text>
+</g>
+<!-- copy&#45;&#45;getFeaturesSize -->
+<g id="edge8" class="edge" data-name="copy--getFeaturesSize">
+
+<path fill="none" stroke="black" d="M492.2,-475.81C447.5,-455.54 352.33,-404.8 317,-327.2 310.37,-312.64 308.72,-304.89 317,-291.2 334.94,-261.52 370.14,-243.84 399.82,-233.7" style=""/>
+<text text-anchor="middle" x="369.48" y="-349.4" font-family="Times,serif" font-size="14.00" style="">featureSize</text>
+</g>
+<!-- iterator -->
+<g id="node5" class="node" pointer-events="visible" data-name="iterator">
+
+<ellipse fill="none" stroke="black" cx="692" cy="-42.8" rx="38.84" ry="18" style=""/>
+<text text-anchor="middle" x="692" y="-38.6" font-family="Times,serif" font-size="14.00" style="">iterator</text>
+</g>
+<!-- copy&#45;&#45;iterator -->
+<g id="edge4" class="edge" data-name="copy--iterator">
+
+<path fill="none" stroke="black" d="M545.76,-485.05C638.11,-482.51 918.87,-473.1 1007,-450.8 1052.12,-439.38 1098,-445.54 1098,-399 1098,-399 1098,-399 1098,-130.6 1098,-56 832.55,-45.29 730.93,-43.92" style=""/>
+<text text-anchor="middle" x="1130.27" y="-260.6" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- getNeurons -->
+<g id="node6" class="node" pointer-events="visible" data-name="getNeurons">
+
+<ellipse fill="none" stroke="black" cx="301" cy="-131.6" rx="55.61" ry="18" style=""/>
+<text text-anchor="middle" x="301" y="-127.4" font-family="Times,serif" font-size="14.00" style="">getNeurons</text>
+</g>
+<!-- copy&#45;&#45;getNeurons -->
+<g id="edge5" class="edge" data-name="copy--getNeurons">
+
+<path fill="none" stroke="black" d="M486.4,-483.98C376.76,-476.84 0,-448.68 0,-399 0,-399 0,-399 0,-263.8 0,-208.72 171.52,-162.03 255.61,-142.46" style=""/>
+<text text-anchor="middle" x="32.27" y="-305" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- deleteNeuron -->
+<g id="node7" class="node" pointer-events="visible" data-name="deleteNeuron">
+
+<ellipse fill="none" stroke="black" cx="146" cy="-309.2" rx="63.1" ry="18" style=""/>
+<text text-anchor="middle" x="146" y="-305" font-family="Times,serif" font-size="14.00" style="">deleteNeuron</text>
+</g>
+<!-- copy&#45;&#45;deleteNeuron -->
+<g id="edge7" class="edge" data-name="copy--deleteNeuron">
+
+<path fill="none" stroke="black" d="M486.31,-486.06C431.02,-485.76 309.05,-481.31 212,-450.8 180.91,-441.03 168.32,-441.04 147.46,-416 126.72,-391.1 123.1,-376.87 130,-345.2 131.34,-339.06 133.85,-332.71 136.49,-327.14" style=""/>
+<text text-anchor="middle" x="180.27" y="-393.8" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- deleteLink -->
+<g id="node9" class="node" pointer-events="visible" data-name="deleteLink">
+
+<ellipse fill="none" stroke="black" cx="1017" cy="-309.2" rx="52.16" ry="18" style=""/>
+<text text-anchor="middle" x="1017" y="-305" font-family="Times,serif" font-size="14.00" style="">deleteLink</text>
+</g>
+<!-- copy&#45;&#45;deleteLink -->
+<g id="edge10" class="edge" data-name="copy--deleteLink">
+
+<path fill="none" stroke="black" d="M545.79,-485.1C643.31,-482.59 949,-473.03 987,-450.8 992.11,-447.81 1044.29,-367.67 1046,-362 1048.16,-354.85 1048.53,-352.22 1046,-345.2 1043.54,-338.37 1039.1,-331.93 1034.42,-326.48" style=""/>
+<text text-anchor="middle" x="1057.72" y="-393.8" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- getNeuron -->
+<g id="node10" class="node" pointer-events="visible" data-name="getNeuron">
+
+<ellipse fill="none" stroke="black" cx="301" cy="-220.4" rx="51.59" ry="18" style=""/>
+<text text-anchor="middle" x="301" y="-216.2" font-family="Times,serif" font-size="14.00" style="">getNeuron</text>
+</g>
+<!-- copy&#45;&#45;getNeuron -->
+<g id="edge11" class="edge" data-name="copy--getNeuron">
+
+<path fill="none" stroke="black" d="M486.84,-482.31C430.12,-473.72 306.31,-445.79 258.46,-362 234.94,-320.81 268.05,-265.25 287.92,-237.95" style=""/>
+<text text-anchor="middle" x="291.27" y="-349.4" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- getNeighbours -->
+<g id="node11" class="node" pointer-events="visible" data-name="getNeighbours">
+
+<ellipse fill="none" stroke="black" cx="936" cy="-220.4" rx="67.79" ry="18" style=""/>
+<text text-anchor="middle" x="936" y="-216.2" font-family="Times,serif" font-size="14.00" style="">getNeighbours</text>
+</g>
+<!-- copy&#45;&#45;getNeighbours -->
+<g id="edge12" class="edge" data-name="copy--getNeighbours">
+
+<path fill="none" stroke="black" d="M546.01,-486.05C636.71,-486.1 904.89,-480.66 955,-416 964.8,-403.35 962.83,-393.96 955,-380 947.5,-366.62 933.06,-375.38 925.56,-362 913.98,-341.34 925.87,-271.59 932.37,-238.76" style=""/>
+<text text-anchor="middle" x="948.72" y="-349.4" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- createNextId -->
+<g id="node12" class="node" pointer-events="visible" data-name="createNextId">
+
+<ellipse fill="none" stroke="black" cx="559" cy="-309.2" rx="60.79" ry="18" style=""/>
+<text text-anchor="middle" x="559" y="-305" font-family="Times,serif" font-size="14.00" style="">createNextId</text>
+</g>
+<!-- copy&#45;&#45;createNextId -->
+<g id="edge13" class="edge" data-name="copy--createNextId">
+
+<path fill="none" stroke="black" d="M515.61,-468.61C515.55,-447.39 516.86,-410.4 525.23,-380 530.45,-361.05 540.7,-341.01 548.55,-327.29" style=""/>
+<text text-anchor="middle" x="543.88" y="-393.8" font-family="Times,serif" font-size="14.00" style="">nextId</text>
+</g>
+<!-- from&#45;&#45;getFeaturesSize -->
+<g id="edge3" class="edge" data-name="from--getFeaturesSize">
+
+<path fill="none" stroke="black" d="M450,-291.05C450,-275.93 450,-254.01 450,-238.81" style=""/>
+<text text-anchor="middle" x="481.48" y="-260.6" font-family="Times,serif" font-size="14.00" style="">featureSize</text>
+</g>
+<!-- createNeuron&#45;&#45;from -->
+<g id="edge2" class="edge" data-name="createNeuron--from">
+
+<path fill="none" stroke="black" d="M585.83,-385.7C565.61,-379.96 542.09,-372.04 522.04,-362 501.52,-351.72 480.48,-335.86 466.48,-324.39" style=""/>
+<text text-anchor="middle" x="554.48" y="-349.4" font-family="Times,serif" font-size="14.00" style="">featureSize</text>
+</g>
+<!-- createNeuron&#45;&#45;createNeuron -->
+<g id="edge21" class="edge" data-name="createNeuron--createNeuron">
+
+<path fill="none" stroke="black" d="M689.8,-406.19C703.7,-405.59 714.04,-402.86 714.04,-398 714.04,-393.14 703.7,-390.41 689.8,-389.81" style=""/>
+<text text-anchor="middle" x="829.89" y="-393.8" font-family="Times,serif" font-size="14.00" style="">featureSize, nextId, neuronMap, linkMap</text>
+</g>
+<!-- createNeuron&#45;&#45;getFeaturesSize -->
+<g id="edge23" class="edge" data-name="createNeuron--getFeaturesSize">
+
+<path fill="none" stroke="black" d="M638.36,-379.72C639.85,-374.12 641.26,-367.85 642,-362 646.02,-330.26 650.04,-315.3 629,-291.2 599.06,-256.9 550.16,-239.33 511.03,-230.41" style=""/>
+<text text-anchor="middle" x="676.48" y="-305" font-family="Times,serif" font-size="14.00" style="">featureSize</text>
+</g>
+<!-- createNeuron&#45;&#45;iterator -->
+<g id="edge15" class="edge" data-name="createNeuron--iterator">
+
+<path fill="none" stroke="black" d="M687.45,-388.63C731.06,-378.47 785,-356.54 785,-310.2 785,-310.2 785,-310.2 785,-130.6 785,-94.71 747.53,-69.41 720.16,-55.72" style=""/>
+<text text-anchor="middle" x="817.27" y="-216.2" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- createNeuron&#45;&#45;getNeurons -->
+<g id="edge18" class="edge" data-name="createNeuron--getNeurons">
+
+<path fill="none" stroke="black" d="M659.41,-381.29C689.77,-361.13 732.92,-324.76 712,-291.2 635.84,-169.01 449.45,-140.76 356.12,-134.37" style=""/>
+<text text-anchor="middle" x="731.27" y="-260.6" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- createNeuron&#45;&#45;deleteNeuron -->
+<g id="edge22" class="edge" data-name="createNeuron--deleteNeuron">
+
+<path fill="none" stroke="black" d="M586.81,-385.44C576.72,-383.29 566.04,-381.32 556,-380 533.03,-376.99 155.48,-378.73 139.46,-362 130.81,-352.97 133.39,-338.62 137.6,-327.31" style=""/>
+<text text-anchor="middle" x="172.27" y="-349.4" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- createNeuron&#45;&#45;deleteLink -->
+<g id="edge25" class="edge" data-name="createNeuron--deleteLink">
+
+<path fill="none" stroke="black" d="M696.34,-396.46C782.23,-394.74 930.3,-387.96 977,-362 991,-354.22 1001.72,-339.29 1008.51,-327.46" style=""/>
+<text text-anchor="middle" x="1018.72" y="-349.4" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- createNeuron&#45;&#45;getNeuron -->
+<g id="edge26" class="edge" data-name="createNeuron--getNeuron">
+
+<path fill="none" stroke="black" d="M587.25,-385.31C580.14,-383.51 572.87,-381.7 566,-380 517.28,-367.97 384.82,-359.55 346.46,-327.2 319.26,-304.26 307.91,-262.07 303.51,-238.49" style=""/>
+<text text-anchor="middle" x="379.27" y="-305" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- createNeuron&#45;&#45;getNeighbours -->
+<g id="edge27" class="edge" data-name="createNeuron--getNeighbours">
+
+<path fill="none" stroke="black" d="M694,-392.82C726.76,-388.49 766.9,-379.73 799,-362 837.34,-340.82 836.99,-322.57 867.56,-291.2 885.21,-273.09 905.5,-252.41 919.37,-238.3" style=""/>
+<text text-anchor="middle" x="890.72" y="-305" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- createNeuron&#45;&#45;createNextId -->
+<g id="edge28" class="edge" data-name="createNeuron--createNextId">
+
+<path fill="none" stroke="black" d="M618.73,-380.26C605.63,-364.89 586.31,-342.24 573.22,-326.88" style=""/>
+<text text-anchor="middle" x="619.88" y="-349.4" font-family="Times,serif" font-size="14.00" style="">nextId</text>
+</g>
+<!-- getNeurons&#45;&#45;iterator -->
+<g id="edge14" class="edge" data-name="getNeurons--iterator">
+
+<path fill="none" stroke="black" d="M345.85,-120.64C424.69,-103.14 586.44,-67.23 657.37,-51.49" style=""/>
+<text text-anchor="middle" x="564.27" y="-83" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- deleteNeuron&#45;&#45;iterator -->
+<g id="edge16" class="edge" data-name="deleteNeuron--iterator">
+
+<path fill="none" stroke="black" d="M136.78,-291.14C123.01,-263.11 101.16,-206.52 125.46,-167.6 154.42,-121.22 183.85,-130.02 236,-113.6 385.73,-66.47 573.49,-50.59 653.27,-45.74" style=""/>
+<text text-anchor="middle" x="158.27" y="-171.8" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- deleteNeuron&#45;&#45;getNeurons -->
+<g id="edge19" class="edge" data-name="deleteNeuron--getNeurons">
+
+<path fill="none" stroke="black" d="M146.75,-290.97C148.56,-268.38 154.71,-228.53 175.46,-202.4 197.71,-174.38 234.47,-155.84 262.47,-144.96" style=""/>
+<text text-anchor="middle" x="208.27" y="-216.2" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- deleteNeuron&#45;&#45;getNeuron -->
+<g id="edge29" class="edge" data-name="deleteNeuron--getNeuron">
+
+<path fill="none" stroke="black" d="M152.53,-290.93C157.67,-279.56 165.91,-265.19 177.46,-256.4 190.1,-246.78 226.95,-237.03 257.14,-230.27" style=""/>
+<text text-anchor="middle" x="210.27" y="-260.6" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- addLink -->
+<g id="node8" class="node" pointer-events="visible" data-name="addLink">
+
+<ellipse fill="none" stroke="black" cx="1064" cy="-575.6" rx="43.44" ry="18" style=""/>
+<text text-anchor="middle" x="1064" y="-571.4" font-family="Times,serif" font-size="14.00" style="">addLink</text>
+</g>
+<!-- addLink&#45;&#45;copy -->
+<g id="edge9" class="edge" data-name="addLink--copy">
+
+<path fill="none" stroke="black" d="M1024.15,-568.29C918.98,-551.63 635.8,-506.78 544.67,-492.34" style=""/>
+<text text-anchor="middle" x="862.72" y="-527" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- addLink&#45;&#45;createNeuron -->
+<g id="edge24" class="edge" data-name="addLink--createNeuron">
+
+<path fill="none" stroke="black" d="M1043.34,-559.41C1002.73,-530.34 908.74,-466.78 820,-434 778.48,-418.66 729.19,-409.79 691.64,-404.82" style=""/>
+<text text-anchor="middle" x="983.72" y="-482.6" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- addLink&#45;&#45;deleteLink -->
+<g id="edge30" class="edge" data-name="addLink--deleteLink">
+
+<path fill="none" stroke="black" d="M1075.27,-558.01C1091.56,-532.01 1118.74,-479.88 1109,-434 1099.64,-389.91 1090.9,-378.02 1060,-345.2 1053.53,-338.33 1045.72,-331.59 1038.53,-325.89" style=""/>
+<text text-anchor="middle" x="1133.72" y="-438.2" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- addLink&#45;&#45;getNeighbours -->
+<g id="edge31" class="edge" data-name="addLink--getNeighbours">
+
+<path fill="none" stroke="black" d="M1086.34,-559.8C1119.18,-536 1175.16,-486.54 1161,-434 1135.75,-340.3 1118.87,-303.44 1034,-256.4 1017.57,-247.29 998.31,-239.81 981.24,-234.13" style=""/>
+<text text-anchor="middle" x="1178.72" y="-393.8" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- deleteLink&#45;&#45;getNeighbours -->
+<g id="edge32" class="edge" data-name="deleteLink--getNeighbours">
+
+<path fill="none" stroke="black" d="M1001.76,-291.87C987.47,-276.55 966.17,-253.73 951.72,-238.25" style=""/>
+<text text-anchor="middle" x="1006.72" y="-260.6" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+<!-- getNeuron&#45;&#45;iterator -->
+<g id="edge17" class="edge" data-name="getNeuron--iterator">
+
+<path fill="none" stroke="black" d="M335.82,-206.67C392.38,-185.63 507.34,-141.35 601,-95.6 624.85,-83.95 651.09,-68.74 669.24,-57.82" style=""/>
+<text text-anchor="middle" x="593.27" y="-127.4" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- getNeuron&#45;&#45;getNeurons -->
+<g id="edge20" class="edge" data-name="getNeuron--getNeurons">
+
+<path fill="none" stroke="black" d="M301,-202.25C301,-187.13 301,-165.21 301,-150.01" style=""/>
+<text text-anchor="middle" x="333.27" y="-171.8" font-family="Times,serif" font-size="14.00" style="">neuronMap</text>
+</g>
+<!-- getNeighbours&#45;&#45;getNeighbours -->
+<g id="edge33" class="edge" data-name="getNeighbours--getNeighbours">
+
+<path fill="none" stroke="black" d="M996.99,-228.56C1011.32,-227.89 1021.89,-225.17 1021.89,-220.4 1021.89,-215.63 1011.32,-212.91 996.99,-212.24" style=""/>
+<text text-anchor="middle" x="1045.61" y="-216.2" font-family="Times,serif" font-size="14.00" style="">linkMap</text>
+</g>
+</g>
+</svg>

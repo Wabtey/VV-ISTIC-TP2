@@ -1,0 +1,33 @@
+strict graph {
+  label="NeuronSquareMesh2D"
+  "copy" -- "iterator" [label="network"];
+  "copy" -- "getNetwork" [label="network"];
+  "copy" -- "getNumberOfRows" [label="numberOfRows"];
+  "copy" -- "getNumberOfColumns" [label="numberOfColumns"];
+  "copy" -- "isWrappedRow" [label="wrapRows"];
+  "copy" -- "isWrappedColumn" [label="wrapColumns"];
+  "copy" -- "getSquareNeighbourhood" [label="neighbourhood"];
+  "copy" -- "getNeuron" [label="numberOfColumns, identifiers, numberOfRows, network"];
+  "copy" -- "getLocation" [label="numberOfColumns, wrapRows, wrapColumns, numberOfRows"];
+  "copy" -- "createLinks" [label="numberOfColumns, identifiers, neighbourhood, wrapRows, wrapColumns, numberOfRows, network"];
+  "getNetwork" -- "iterator" [label="network"];
+  "getNeuron" -- "iterator" [label="network"];
+  "createLinks" -- "iterator" [label="network"];
+  "getNetwork" -- "getNeuron" [label="network"];
+  "createLinks" -- "getNetwork" [label="network"];
+  "getNeuron" -- "getNumberOfRows" [label="numberOfRows"];
+  "getLocation" -- "getNumberOfRows" [label="numberOfRows"];
+  "createLinks" -- "getNumberOfRows" [label="numberOfRows"];
+  "getNeuron" -- "getNumberOfColumns" [label="numberOfColumns"];
+  "getLocation" -- "getNumberOfColumns" [label="numberOfColumns"];
+  "createLinks" -- "getNumberOfColumns" [label="numberOfColumns"];
+  "getLocation" -- "isWrappedRow" [label="wrapRows"];
+  "createLinks" -- "isWrappedRow" [label="wrapRows"];
+  "getLocation" -- "isWrappedColumn" [label="wrapColumns"];
+  "createLinks" -- "isWrappedColumn" [label="wrapColumns"];
+  "createLinks" -- "getSquareNeighbourhood" [label="neighbourhood"];
+  "getNeuron" -- "getNeuron" [label="numberOfColumns, identifiers, numberOfRows, network"];
+  "getLocation" -- "getNeuron" [label="numberOfColumns, numberOfRows"];
+  "createLinks" -- "getNeuron" [label="numberOfColumns, identifiers, numberOfRows, network"];
+  "createLinks" -- "getLocation" [label="numberOfColumns, wrapColumns, wrapRows, numberOfRows"];
+}

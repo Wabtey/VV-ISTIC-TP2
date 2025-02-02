@@ -1,0 +1,4 @@
+strict graph {
+  label="MapRanking"
+  "rank" -- "rank" [label="distance, map"];
+}
